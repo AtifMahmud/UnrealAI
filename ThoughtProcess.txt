@@ -1,0 +1,113 @@
+28th October 2024
+
+20:45 hrs
+----------
+This is a simple dev log/dev diary of my thoughts as I approach this assignment. 
+This will serve as a log of what I thought, what I tried, what worked, what didn't 
+and will communicate to the reader the reasoning behind my choices.
+
+Okay - so an AI endpoint - maybe a chatbot or an AI that can take in text and respond?
+I can use a local endpoint, but how will the reader and EML team test it? Will they spin
+up a local instance and use IP address 127.0.0.1? 
+
+The rest of the stuff is pretty simple - make some C++ class, document it well, expose to 
+blueprint. Multiple endpoints could be different bots who have different communication 
+styles and voices and personas? Or different models completely so you can see what different 
+things they have to say and do a comparative analysis?
+
+Okay I am going to try a remote endpoint - essentially a web request to a URL/endpoint that will
+take in the string of text as a payload (obviously with some headers, maybe optional parameters, etc)
+
+I'm going to ask ChatGPT what it's recommendations are.
+
+Prompt:
+What are some online AI endpoints to send text to from UE4 and get text back with a response. 
+Maybe an LLM or chatbot? Free please.
+
+
+Okay - ChatGPT suggested:
+
+1) Open AI - obviously
+2) Cohere API
+3) Hugging Face
+4) NLU.ai
+5) ChatGPT by Kuki AI
+
+Also suggests:
+1) Using UE4 HttpModule
+2) Store keys properly
+3) Monitor rate limit etc
+
+Hmm - Nevermind we have to use UE5 right? Okay let's see...
+
+Prompt:Will this work with UE5? Can I still use HttpModule?
+
+ChatGPT says:
+Yes, these APIs will work with Unreal Engine 5 (UE5), and you can still use the HttpModule 
+for sending HTTP requests.  The HttpModule is available in both UE4 and UE5 and allows you 
+to make GET, POST, and other HTTP requests to interact with APIs, including AI or chatbot APIs.
+-----------------------------------------------
+
+Okay nice, let's spin it up. 
+
+Steps I'm going to take.
+
+1) Make a GitHub repo
+2) Clone it
+3) Create it a project in that directory
+4) Create a basic C++ class that creates a blueprint node that accepts text and then prints it
+   (just as an example of interfacing with nodes)
+5) Enhance that class to take in text and then spit out the response, maybe on a UMG widget?
+
+Let's see afterwards....
+
+Tea break
+____________________________________________________________________________________
+21:08 hrs
+
+Okay made the repo: https://github.com/AtifMahmud/UnrealAI
+Going to use Unreal 5.4.4 - that was the only UE5 I have installed.
+
+Gonna look up C++ docs and examples as I code and work on this - I don't remember some syntactic stuff
+but I did C++ in the past.
+
+Around 2123 hrs - UE still launching - obviously compile stuck at 45%
+
+2137 hrs - finally it loaded up. 3rd person template. Let's make a C++ class (and expose it to blueprint)
+Added c++ class - let me generate solution
+Okay it failed to generate project files. It can't find visual studio.
+Okay need to add c++ tool chain to Visual studio 2022
+
+Okay worked - 2211 hrs - was successful in generating solution file 
+
+Does this hour count? I was pretty much compiling.
+
+Visual Studio says "This project is incompatible with the current version of Visual Studio" - let me see what that's about.
+Okay opened with VS 2022 - now it works.
+
+Some errors, let's see why:
+
+- Severity	Code	Description	Project	File	Line	Suppression State	Details
+Error (active)	E1696	cannot open source file "Editor/UnrealEd/Public/UnrealEdSharedPCH.h"	UnrealAIProject	D:\Dev\UnrealAI\UnrealAIProject\Intermediate\Build\Win64\x64\UnrealAIProjectEditor\Development\UnrealEd\SharedPCH.UnrealEd.Project.ValApi.Cpp20.InclOrderOldest.h	3		
+
+- Severity	Code	Description	Project	File	Line	Suppression State	Details
+Error (active)	E1696	cannot open source file "CoreMinimal.h"	UnrealAIProject	D:\Dev\UnrealAI\UnrealAIProject\Source\UnrealAIProject\Public\AIChatBot.h	5		
+
+- Severity	Code	Description	Project	File	Line	Suppression State	Details
+Error (active)	E0070	incomplete type "DLLEXPORT" is not allowed	UnrealAIProject	D:\Dev\UnrealAI\UnrealAIProject\Source\UnrealAIProject\Public\AIChatBot.h	10	
+
+
+This forum: https://forums.unrealengine.com/t/cannot-open-source-file-name-generated-hc/413312
+Suggested to delete the .vs and Binaries and such folders - right! So I did Rebuild and clean
+
+The errors won't go away.
+
+Change dropdown in error list from Build + Intellisense to build only
+Click Refresh visual studio project from ue5 editor tools menu
+
+Closed VS and hit Open Visual Studio from UE5 - its opening 2019 - ah i need to set external IDE in project settings
+https://dev.epicgames.com/community/learning/tutorials/XjvJ/unreal-engine-ue-5-1-visual-studio-2022-installation-guide
+
+This might help - still clicking on open visual studio opens 2019??
+
+Pausing for now, will come back tomorrow - 2256 hrs
