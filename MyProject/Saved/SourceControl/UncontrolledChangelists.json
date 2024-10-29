@@ -1,0 +1,18 @@
+{
+	"version": 1,
+	"changelists": [
+		{
+			"guid": "00000000000000000000000000000000",
+			"description": "Default Uncontrolled Changelist",
+			"files": [
+				"D:/Dev/UnrealAI/MyProject/Content/StarterContent/Architecture/Floor_400x400.uasset",
+				"D:/Dev/UnrealAI/MyProject/Content/Blueprints/BP_Chatbot.uasset",
+				"D:/Dev/UnrealAI/MyProject/Content/InputContext.uasset",
+				"D:/Dev/UnrealAI/MyProject/Content/IA_Enter.uasset",
+				"D:/Dev/UnrealAI/MyProject/Content/ThirdPerson/Input/IMC_Default.uasset",
+				"D:/Dev/UnrealAI/MyProject/Content/ThirdPerson/Input/Actions/IA_Print.uasset",
+				"D:/Dev/UnrealAI/MyProject/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/5/42/J9X0LKJLI3LQH2SJQIEEFR.uasset"
+			]
+		}
+	]
+}
