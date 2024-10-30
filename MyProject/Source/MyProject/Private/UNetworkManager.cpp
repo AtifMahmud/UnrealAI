@@ -40,5 +40,13 @@ void UNetworkManager::SendRequest(FString& Prompt)
 
 void UNetworkManager::OnResponseReceived(FHttpRequestPtr Request, FHttpResponsePtr Response, bool bWasSuccessful)
 {
-	 
+    if (bWasSuccessful && Response.IsValid())
+    {
+        FString ResponseContent = Response->GetContentAsString();
+        OnResponseReceivedDelegate.Broadcast(ResponseContent);
+    }
+    else
+    {
+        OnResponseReceivedDelegate.Broadcast(TEXT("Request failed"));
+    }
 }

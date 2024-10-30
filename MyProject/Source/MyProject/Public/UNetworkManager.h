@@ -9,15 +9,24 @@
 #include "HttpManager.h"
 #include "Json.h"
 #include "JsonUtilities.h"
+#include "UNetworkManager.generated.h"
 
 /**
  * 
  */ 
+DECLARE_DYNAMIC_MULTICAST_DELEGATE_OneParam(FOnResponseReceivedDelegate, FString, ResponseContent);
+
+UCLASS()
 class MYPROJECT_API UNetworkManager : public UObject
 {
+	GENERATED_BODY()
+
 public:
 	UNetworkManager();
 	~UNetworkManager();
+
+	UPROPERTY(BlueprintAssignable, Category = "Network")
+	FOnResponseReceivedDelegate OnResponseReceivedDelegate;
 
 	void SendRequest(FString& Prompt);
 	void OnResponseReceived(FHttpRequestPtr Request, FHttpResponsePtr Response, bool bWasSuccessful);
