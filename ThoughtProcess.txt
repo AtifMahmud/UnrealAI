@@ -163,7 +163,7 @@ nice hugging face is working - i can create a network class in c++ to deal with 
 	Request->SetURL("https://api.openai.com/v1/completions");
 	Request->SetVerb("POST");
 	Request->SetHeader("Content-Type", "application/json");
-	Request->SetHeader("Authorization", "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");
+	Request->SetHeader("Authorization", "");
 
 
 	TSharedPtr<FJsonObject> JsonObject = MakeShareable(new FJsonObject);
