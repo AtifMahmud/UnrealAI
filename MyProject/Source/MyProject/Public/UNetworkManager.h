@@ -12,13 +12,13 @@
 
 /**
  * 
- */
-class MYPROJECT_API NetworkManager
+ */ 
+class MYPROJECT_API UNetworkManager : public UObject
 {
 public:
-	NetworkManager();
-	~NetworkManager();
+	UNetworkManager();
+	~UNetworkManager();
 
-	void SendRequest();
-	void OnResponseReceived();
+	void SendRequest(FString& Prompt);
+	void OnResponseReceived(FHttpRequestPtr Request, FHttpResponsePtr Response, bool bWasSuccessful);
 };

@@ -4,6 +4,7 @@
 
 #include "CoreMinimal.h"
 #include <string>
+#include "UNetworkManager.h"
 #include "AAIChatBot.generated.h"
 
 /**
