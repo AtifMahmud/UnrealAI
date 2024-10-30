@@ -111,3 +111,74 @@ https://dev.epicgames.com/community/learning/tutorials/XjvJ/unreal-engine-ue-5-1
 This might help - still clicking on open visual studio opens 2019??
 
 Pausing for now, will come back tomorrow - 2256 hrs
+----------------------
+
+Next day: 0915 hrs
+Back to it
+
+intellisense is being weird
+https://stackoverflow.com/questions/72968399/visual-studio-2022-showing-errors-for-everything
+Manage NuGet and delete .vs
+
+Rebuilding gives a lot of errors like Severity	Code	Description	Project	File	Line	Suppression State	Details
+Error (active)	CS0006	Metadata file 'D:\Games\UE_5.4\Engine\Binaries\DotNET\AutomationTool\AutomationUtils\ref\AutomationUtils.Automation.dll' could not be found	CookedEditor.Automation	D:\Games\UE_5.4\Engine\Source\Programs\AutomationTool\CookedEditor\CSC	1		
+
+deleted saved intermediary binaries and build and vs too?
+https://forums.unrealengine.com/t/folders-safe-to-delete-to-recompile-everything/669919
+
+It won't let me build or open the project even after deleting source
+
+Deleting the project and starting again
+Started again, added class, generate project files - not compiling
+---------------------------------------------------------------------
+Start with c++ instead of blueprint, that might help
+
+Ah had to set up visual studio properly
+
+Okay finally it's compiling
+
+Finally it works
+
+
+___________
+Compilation and coding works - getting it all together
+
+
+Okay needed to convert to actor to have in scene
+
+use enhanced input because input is deprecated
+
+having to enable input for actor
+
+KEY: 
+Getting error: Severity	Code	Description	Project	File	Line	Suppression State	Details
+Error		Unable to find 'class', 'delegate', 'enum', or 'struct' with name 'FHttpResponsePtr'	MyProject	D:\Dev\UnrealAI\MyProject\Source\MyProject\Public\AAIChatBot.h	31		
+
+
+Using Hugging Face: 
+
+nice hugging face is working - i can create a network class in c++ to deal with stuff being not blueprintable -  the http stuff
+
+	TSharedRef<IHttpRequest> Request = FHttpModule::Get().CreateRequest();
+	Request->SetURL("https://api.openai.com/v1/completions");
+	Request->SetVerb("POST");
+	Request->SetHeader("Content-Type", "application/json");
+	Request->SetHeader("Authorization", "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");
+
+
+	TSharedPtr<FJsonObject> JsonObject = MakeShareable(new FJsonObject);
+	JsonObject->SetStringField("model", "text-davinci-003");
+	JsonObject->SetStringField("prompt", inputString);
+	JsonObject->SetNumberField("max_tokens", 50);
+
+	FString RequestBody;
+	TSharedRef<TJsonWriter<>> Writer = TJsonWriterFactory<>::Create(&RequestBody);
+	FJsonSerializer::Serialize(JsonObject.ToSharedRef(), Writer);
+
+	Request->SetContentAsString(RequestBody);
+
+	// Bind to response callback
+	// Request->OnProcessRequestComplete().BindUObject(this, &AAIChatBot::OnResponseReceived);
+	Request->ProcessRequest();
+
+

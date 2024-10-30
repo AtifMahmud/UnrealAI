@@ -5,14 +5,16 @@
 
 AAIChatBot::AAIChatBot()
 {
+
 }
 
 AAIChatBot::~AAIChatBot()
 {
+
 }
 
 
-FString AAIChatBot::TextTest(FString inputString)
+FString AAIChatBot::SendRequestToAI(FString inputString)
 {
 	return inputString;
 }

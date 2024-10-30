@@ -18,6 +18,6 @@ public:
 	AAIChatBot();
 	~AAIChatBot();
 
-	UFUNCTION(BlueprintCallable, Category = "AIChatBot")
-	static FString TextTest(FString test);
+	UFUNCTION(BlueprintCallable, Category = "AI Chatbot")
+	FString SendRequestToAI(FString inputString);
 };

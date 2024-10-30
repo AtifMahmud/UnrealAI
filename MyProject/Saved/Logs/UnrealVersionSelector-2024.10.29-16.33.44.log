@@ -1,10 +1,10 @@
-Log started at 10/29/2024 12:46:25 (2024-10-29T19:46:25Z)
+Log started at 10/29/2024 16:33:44 (2024-10-29T23:33:44Z)
 No config file at C:\ProgramData\Unreal Engine\UnrealBuildTool\BuildConfiguration.xml
 No config file at C:\Users\atifm\AppData\Local\Unreal Engine\UnrealBuildTool\BuildConfiguration.xml
 No config file at C:\Users\atifm\Documents\Unreal Engine\UnrealBuildTool\BuildConfiguration.xml
 Configuration will be read from:
   C:\Users\atifm\AppData\Roaming\Unreal Engine\UnrealBuildTool\BuildConfiguration.xml
-Log file: D:\Dev\UnrealAI\MyProject\Saved\Logs\UnrealVersionSelector-2024.10.29-12.46.25.log
+Log file: D:\Dev\UnrealAI\MyProject\Saved\Logs\UnrealVersionSelector-2024.10.29-16.33.44.log
 
 Setting temp directory to 'C:\Users\atifm\AppData\Local\Temp\UnrealBuildTool\0cf999d1'
     Registering build platform: UnrealBuildTool.AndroidPlatformFactory
@@ -1948,6 +1948,8 @@ Found target: UnrealEditor
 Found target: MyProjectEditor
 Building UnrealEditor - UnrealEditor - Win64 - Development
 Building UnrealEditor - MyProjectEditor - Win64 - Development
+Module 'Http' (referenced via Target -> MyProject.Build.cs) has incorrect text case. Did you mean 'HTTP'?
+Module 'Http' (referenced via Target -> MyProject.Build.cs) has incorrect text case. Did you mean 'HTTP'?
 Excluding module AndroidLocalNotification: Excluded folder name
 Excluding module AndroidRuntimeSettings: Excluded folder name
 Excluding module AudioMixerAndroid: Excluded folder name
@@ -2752,8 +2754,6 @@ Excluding module SwitchboardCommon: Not under compatible directories
 Excluding module SwitchboardEditor: Not under compatible directories
 Excluding module CacheTrackRecorder: Not under compatible directories
 Excluding module TakeMovieScene: Not under compatible directories
-Found circular reference to Engine.Build.cs, but Engine declares a cycle on GameplayTags which breaks the chain
-Found circular reference to PacketHandler.Build.cs, but PacketHandler declares a cycle on ReliabilityHandlerComponent which breaks the chain
 Excluding module TakeRecorderSources: Not under compatible directories
 Excluding module TakeRecorder: Not under compatible directories
 Excluding module TakeSequencer: Not under compatible directories
@@ -2773,341 +2773,279 @@ Excluding module VirtualCameraEditor: Not under compatible directories
 Excluding module VirtualCamera: Not under compatible directories
 Excluding module HttpBlueprintGraph: Not under compatible directories
 Excluding module HttpBlueprint: Not under compatible directories
-Found circular reference to Engine.Build.cs, but Engine declares a cycle on Landscape which breaks the chain
 Excluding module CsvMetrics: Not under compatible directories
 Excluding module WorldMetricsCore: Not under compatible directories
-Found circular reference to Engine.Build.cs, but Engine declares a cycle on Landscape which breaks the chain
-Found circular reference to Engine.Build.cs, but Engine declares a cycle on Landscape which breaks the chain
-Found circular reference to Engine.Build.cs, but Engine declares a cycle on Landscape which breaks the chain
 Excluding module WorldMetricsTest: Not under compatible directories
-Found circular reference to Engine.Build.cs, but Engine declares a cycle on Landscape which breaks the chain
 Excluding module XGEController: Not under compatible directories
 Excluding module OXRVisionOSSettings: Not under compatible directories
-Found circular reference to Engine.Build.cs, but Engine declares a cycle on Landscape which breaks the chain
-Found circular reference to Engine.Build.cs, but Engine declares a cycle on Landscape which breaks the chain
-Found circular reference to Engine.Build.cs, but Engine declares a cycle on Landscape which breaks the chain
 Excluding module AndroidAdvertising: Excluded folder name
 Excluding module IOSAdvertising: Excluded folder name
-Found circular reference to Documentation.Build.cs, but Engine declares a cycle on Landscape which breaks the chain
-Found circular reference to Engine.Build.cs, but Engine declares a cycle on Landscape which breaks the chain
-Found circular reference to Engine.Build.cs, but Engine declares a cycle on Landscape which breaks the chain
-Found circular reference to Engine.Build.cs, but Engine declares a cycle on Landscape which breaks the chain
-Found circular reference to Engine.Build.cs, but Engine declares a cycle on Landscape which breaks the chain
-Found circular reference to UnrealEd.Build.cs, but Engine declares a cycle on Landscape which breaks the chain
-Found circular reference to Engine.Build.cs, but Engine declares a cycle on Landscape which breaks the chain
-Found circular reference to Engine.Build.cs, but Engine declares a cycle on Landscape which breaks the chain
-Found circular reference to UnrealEd.Build.cs, but Engine declares a cycle on Landscape which breaks the chain
 Excluding module LaunchDaemonMessages: Excluded folder name
-Found circular reference to Engine.Build.cs, but Engine declares a cycle on Landscape which breaks the chain
-Found circular reference to UnrealEd.Build.cs, but Engine declares a cycle on Landscape which breaks the chain
-Found circular reference to UnrealEd.Build.cs, but Engine declares a cycle on Landscape which breaks the chain
-Found circular reference to Engine.Build.cs, but Engine declares a cycle on Landscape which breaks the chain
-Found circular reference to PropertyEditor.Build.cs, but Engine declares a cycle on Landscape which breaks the chain
-Found circular reference to UnrealEd.Build.cs, but Engine declares a cycle on Landscape which breaks the chain
-Found circular reference to Engine.Build.cs, but Engine declares a cycle on Landscape which breaks the chain
-Found circular reference to UnrealEd.Build.cs, but Engine declares a cycle on Landscape which breaks the chain
-Found circular reference to EditorConfig.Build.cs, but Engine declares a cycle on Landscape which breaks the chain
-Found circular reference to Engine.Build.cs, but Engine declares a cycle on Landscape which breaks the chain
-Found circular reference to AssetTools.Build.cs, but Engine declares a cycle on Landscape which breaks the chain
-Found circular reference to Engine.Build.cs, but Engine declares a cycle on Landscape which breaks the chain
-Found circular reference to Engine.Build.cs, but Engine declares a cycle on Landscape which breaks the chain
-Found circular reference to UnrealEd.Build.cs, but Engine declares a cycle on Landscape which breaks the chain
-Found circular reference to Kismet.Build.cs, but Engine declares a cycle on Landscape which breaks the chain
-Found circular reference to Engine.Build.cs, but Engine declares a cycle on Landscape which breaks the chain
-Found circular reference to UnrealEd.Build.cs, but Engine declares a cycle on Landscape which breaks the chain
+Found circular reference to Engine.Build.cs, but Engine declares a cycle on GameplayTags which breaks the chain
+Found circular reference to PacketHandler.Build.cs, but PacketHandler declares a cycle on ReliabilityHandlerComponent which breaks the chain
 Found circular reference to Engine.Build.cs, but Engine declares a cycle on Landscape which breaks the chain
 Found circular reference to Engine.Build.cs, but Engine declares a cycle on Landscape which breaks the chain
 Found circular reference to Engine.Build.cs, but Engine declares a cycle on Landscape which breaks the chain
-Found circular reference to KismetCompiler.Build.cs, but Engine declares a cycle on Landscape which breaks the chain
-Found circular reference to UnrealEd.Build.cs, but Engine declares a cycle on Landscape which breaks the chain
-Found circular reference to GraphEditor.Build.cs, but Engine declares a cycle on Landscape which breaks the chain
-Found circular reference to Kismet.Build.cs, but Engine declares a cycle on Landscape which breaks the chain
-Found circular reference to Engine.Build.cs, but Engine declares a cycle on Landscape which breaks the chain
-Found circular reference to UnrealEd.Build.cs, but Engine declares a cycle on Landscape which breaks the chain
-Found circular reference to BlueprintGraph.Build.cs, but Engine declares a cycle on Landscape which breaks the chain
-Found circular reference to Engine.Build.cs, but Engine declares a cycle on Landscape which breaks the chain
-Found circular reference to UnrealEd.Build.cs, but Engine declares a cycle on Landscape which breaks the chain
 Found circular reference to Engine.Build.cs, but Engine declares a cycle on Landscape which breaks the chain
 Excluding module VisualStudioDTE: Not under compatible directories
 Excluding module Shaders: Not under compatible directories
 Excluding module AISupportModule: Not under compatible directories
 Excluding module HTNPlanner: Not under compatible directories
 Excluding module HTNTestSuite: Not under compatible directories
-Found circular reference to UnrealEd.Build.cs, but Engine declares a cycle on Landscape which breaks the chain
-Found circular reference to PropertyEditor.Build.cs, but Engine declares a cycle on Landscape which breaks the chain
 Excluding module MassAIBehavior: Not under compatible directories
+Found circular reference to Engine.Build.cs, but Engine declares a cycle on Landscape which breaks the chain
 Excluding module MassAIDebug: Not under compatible directories
+Found circular reference to Engine.Build.cs, but Engine declares a cycle on Landscape which breaks the chain
+Found circular reference to Engine.Build.cs, but Engine declares a cycle on Landscape which breaks the chain
 Excluding module MassAIReplication: Not under compatible directories
-Found circular reference to PropertyEditor.Build.cs, but Engine declares a cycle on Landscape which breaks the chain
-Found circular reference to AssetTools.Build.cs, but Engine declares a cycle on Landscape which breaks the chain
+Found circular reference to Engine.Build.cs, but Engine declares a cycle on Landscape which breaks the chain
 Excluding module MassAITestSuite: Not under compatible directories
-Found circular reference to Engine.Build.cs, but Engine declares a cycle on Landscape which breaks the chain
 Excluding module MassNavigationEditor: Not under compatible directories
-Found circular reference to Engine.Build.cs, but Engine declares a cycle on Landscape which breaks the chain
 Excluding module MassNavigation: Not under compatible directories
 Excluding module MassZoneGraphNavigation: Not under compatible directories
+Found circular reference to Documentation.Build.cs, but Engine declares a cycle on Landscape which breaks the chain
 Excluding module MassCrowd: Not under compatible directories
-Excluding module MLAdapterTestSuite: Not under compatible directories
 Found circular reference to Engine.Build.cs, but Engine declares a cycle on Landscape which breaks the chain
+Excluding module MLAdapterTestSuite: Not under compatible directories
 Excluding module MLAdapter: Not under compatible directories
 Excluding module ACLPluginEditor: Not under compatible directories
-Found circular reference to Renderer.Build.cs, but Engine declares a cycle on Landscape which breaks the chain
 Excluding module ACLPlugin: Not under compatible directories
 Excluding module AnimationLocomotionLibraryEditor: Not under compatible directories
 Excluding module AnimationLocomotionLibraryRuntime: Not under compatible directories
 Excluding module AnimationModifierLibrary: Not under compatible directories
 Found circular reference to Engine.Build.cs, but Engine declares a cycle on Landscape which breaks the chain
-Found circular reference to Engine.Build.cs, but Engine declares a cycle on Landscape which breaks the chain
 Excluding module AnimationWarpingEditor: Not under compatible directories
 Excluding module AnimationWarpingRuntime: Not under compatible directories
 Excluding module BlendSpaceMotionAnalysis: Not under compatible directories
+Found circular reference to Engine.Build.cs, but Engine declares a cycle on Landscape which breaks the chain
 Excluding module ControlRigSpline: Not under compatible directories
 Excluding module ControlRigDeveloper: Not under compatible directories
 Excluding module ControlRigEditor: Not under compatible directories
 Found circular reference to Engine.Build.cs, but Engine declares a cycle on Landscape which breaks the chain
+Found circular reference to UnrealEd.Build.cs, but Engine declares a cycle on Landscape which breaks the chain
 Excluding module ControlRig: Not under compatible directories
 Excluding module OptimusCore: Not under compatible directories
-Found circular reference to UnrealEd.Build.cs, but Engine declares a cycle on Landscape which breaks the chain
 Excluding module OptimusDeveloper: Not under compatible directories
+Found circular reference to Engine.Build.cs, but Engine declares a cycle on Landscape which breaks the chain
 Excluding module OptimusEditor: Not under compatible directories
 Excluding module OptimusSettings: Not under compatible directories
 Excluding module GameplayInsightsEditor: Not under compatible directories
 Excluding module GameplayInsights: Not under compatible directories
+Found circular reference to Engine.Build.cs, but Engine declares a cycle on Landscape which breaks the chain
 Excluding module RewindDebuggerVLog: Not under compatible directories
-Found circular reference to UnrealEd.Build.cs, but Engine declares a cycle on Landscape which breaks the chain
-Found circular reference to GraphEditor.Build.cs, but Engine declares a cycle on Landscape which breaks the chain
 Excluding module RewindDebugger: Not under compatible directories
+Found circular reference to UnrealEd.Build.cs, but Engine declares a cycle on Landscape which breaks the chain
 Excluding module IKRigDeveloper: Not under compatible directories
-Found circular reference to PropertyEditor.Build.cs, but Engine declares a cycle on Landscape which breaks the chain
 Excluding module IKRigEditor: Not under compatible directories
 Excluding module LiveLinkCurveDebugUI: Not under compatible directories
 Excluding module LiveLinkHubEditor: Not under compatible directories
-Found circular reference to EditorConfig.Build.cs, but Engine declares a cycle on Landscape which breaks the chain
-Found circular reference to Engine.Build.cs, but Engine declares a cycle on Landscape which breaks the chain
 Excluding module LiveLinkHubMessaging: Not under compatible directories
+Found circular reference to Engine.Build.cs, but Engine declares a cycle on Landscape which breaks the chain
 Excluding module LiveLinkHub: Not under compatible directories
-Found circular reference to AssetTools.Build.cs, but Engine declares a cycle on Landscape which breaks the chain
 Excluding module LiveLinkComponents: Not under compatible directories
-Found circular reference to SourceControlWindows.Build.cs, but Engine declares a cycle on Landscape which breaks the chain
-Excluding module LiveLinkEditor: Not under compatible directories
-Excluding module LiveLinkGraphNode: Not under compatible directories
 Found circular reference to UnrealEd.Build.cs, but Engine declares a cycle on Landscape which breaks the chain
+Excluding module LiveLinkEditor: Not under compatible directories
+Found circular reference to UnrealEd.Build.cs, but Engine declares a cycle on Landscape which breaks the chain
+Excluding module LiveLinkGraphNode: Not under compatible directories
 Excluding module LiveLinkMovieScene: Not under compatible directories
+Found circular reference to Engine.Build.cs, but Engine declares a cycle on Landscape which breaks the chain
 Excluding module LiveLinkMultiUser: Not under compatible directories
 Excluding module LiveLinkSequencer: Not under compatible directories
-Found circular reference to Engine.Build.cs, but Engine declares a cycle on Landscape which breaks the chain
 Excluding module LiveLink: Not under compatible directories
 Excluding module MLDeformerFrameworkEditor: Not under compatible directories
-Found circular reference to UnrealEd.Build.cs, but Engine declares a cycle on Landscape which breaks the chain
+Found circular reference to PropertyEditor.Build.cs, but Engine declares a cycle on Landscape which breaks the chain
 Excluding module NearestNeighborModelEditor: Not under compatible directories
 Excluding module NeuralMorphModelEditor: Not under compatible directories
 Excluding module VertexDeltaModelEditor: Not under compatible directories
 Excluding module RigLogicDeveloper: Not under compatible directories
+Found circular reference to UnrealEd.Build.cs, but Engine declares a cycle on Landscape which breaks the chain
 Excluding module RigLogicEditor: Not under compatible directories
+Found circular reference to Engine.Build.cs, but Engine declares a cycle on Landscape which breaks the chain
 Excluding module RigLogicLibTest: Not under compatible directories
+Found circular reference to UnrealEd.Build.cs, but Engine declares a cycle on Landscape which breaks the chain
 Excluding module RigLogicLib: Not under compatible directories
+Found circular reference to EditorConfig.Build.cs, but Engine declares a cycle on Landscape which breaks the chain
 Excluding module RigLogicModule: Not under compatible directories
-Found circular reference to Engine.Build.cs, but Engine declares a cycle on Landscape which breaks the chain
 Excluding module Bridge: Not under compatible directories
-Excluding module MegascansPlugin: Not under compatible directories
-Found circular reference to SourceControlWindows.Build.cs, but Engine declares a cycle on Landscape which breaks the chain
-Found circular reference to UnrealEd.Build.cs, but Engine declares a cycle on Landscape which breaks the chain
-Found circular reference to AssetTools.Build.cs, but Engine declares a cycle on Landscape which breaks the chain
-Excluding module ComposureEditor: Not under compatible directories
-Excluding module Composure: Not under compatible directories
-Found circular reference to KismetCompiler.Build.cs, but Engine declares a cycle on Landscape which breaks the chain
-Found circular reference to Kismet.Build.cs, but Engine declares a cycle on Landscape which breaks the chain
-Excluding module LensDistortion: Not under compatible directories
-Excluding module OpenColorIOEditor: Not under compatible directories
 Found circular reference to Engine.Build.cs, but Engine declares a cycle on Landscape which breaks the chain
-Found circular reference to UnrealEd.Build.cs, but Engine declares a cycle on Landscape which breaks the chain
+Excluding module MegascansPlugin: Not under compatible directories
+Excluding module ComposureEditor: Not under compatible directories
+Found circular reference to AssetTools.Build.cs, but Engine declares a cycle on Landscape which breaks the chain
+Excluding module Composure: Not under compatible directories
+Found circular reference to Engine.Build.cs, but Engine declares a cycle on Landscape which breaks the chain
+Excluding module LensDistortion: Not under compatible directories
+Found circular reference to Engine.Build.cs, but Engine declares a cycle on Landscape which breaks the chain
+Excluding module OpenColorIOEditor: Not under compatible directories
 Excluding module OpenColorIO: Not under compatible directories
+Found circular reference to UnrealEd.Build.cs, but Engine declares a cycle on Landscape which breaks the chain
 Excluding module OpenCVLensDistortion: Not under compatible directories
 Excluding module BlankPlugin: Not under compatible directories
 Excluding module CLionSourceCodeAccess: Not under compatible directories
 Excluding module CodeLiteSourceCodeAccess: Not under compatible directories
-Found circular reference to Engine.Build.cs, but Engine declares a cycle on Landscape which breaks the chain
-Found circular reference to UnrealEd.Build.cs, but Engine declares a cycle on Landscape which breaks the chain
 Excluding module DisasterRecoveryClient: Not under compatible directories
 Excluding module MultiUserClientLibrary: Not under compatible directories
-Found circular reference to Engine.Build.cs, but Engine declares a cycle on Landscape which breaks the chain
+Found circular reference to Kismet.Build.cs, but Engine declares a cycle on Landscape which breaks the chain
 Excluding module MultiUserClient: Not under compatible directories
 Found circular reference to Engine.Build.cs, but Engine declares a cycle on Landscape which breaks the chain
-Found circular reference to Engine.Build.cs, but Engine declares a cycle on Landscape which breaks the chain
 Excluding module MultiUserReplicationEditor: Not under compatible directories
+Found circular reference to UnrealEd.Build.cs, but Engine declares a cycle on Landscape which breaks the chain
 Excluding module MultiUserServer: Not under compatible directories
+Found circular reference to Engine.Build.cs, but Engine declares a cycle on Landscape which breaks the chain
 Excluding module ConcertClient: Not under compatible directories
 Excluding module ConcertServer: Not under compatible directories
 Excluding module ConcertTransport: Not under compatible directories
-Found circular reference to AnimGraph.Build.cs, but Engine declares a cycle on Landscape which breaks the chain
 Found circular reference to Engine.Build.cs, but Engine declares a cycle on Landscape which breaks the chain
-Found circular reference to UnrealEd.Build.cs, but Engine declares a cycle on Landscape which breaks the chain
 Excluding module Concert: Not under compatible directories
 Excluding module ConcertReplicationScriptingEditor: Not under compatible directories
-Found circular reference to PropertyEditor.Build.cs, but Engine declares a cycle on Landscape which breaks the chain
-Found circular reference to Engine.Build.cs, but Engine declares a cycle on Landscape which breaks the chain
-Found circular reference to UnrealEd.Build.cs, but Engine declares a cycle on Landscape which breaks the chain
 Excluding module ConcertReplicationScripting: Not under compatible directories
-Excluding module ConcertSyncClient: Not under compatible directories
 Found circular reference to Engine.Build.cs, but Engine declares a cycle on Landscape which breaks the chain
-Found circular reference to UnrealEd.Build.cs, but Engine declares a cycle on Landscape which breaks the chain
+Excluding module ConcertSyncClient: Not under compatible directories
+Found circular reference to KismetCompiler.Build.cs, but Engine declares a cycle on Landscape which breaks the chain
 Excluding module ConcertSyncCore: Not under compatible directories
 Excluding module ConcertSyncServer: Not under compatible directories
+Found circular reference to UnrealEd.Build.cs, but Engine declares a cycle on Landscape which breaks the chain
+Found circular reference to GraphEditor.Build.cs, but Engine declares a cycle on Landscape which breaks the chain
 Excluding module ConcertSyncTest: Not under compatible directories
 Excluding module ConcertClientSharedSlate: Not under compatible directories
-Found circular reference to EditorConfig.Build.cs, but Engine declares a cycle on Landscape which breaks the chain
+Found circular reference to Kismet.Build.cs, but Engine declares a cycle on Landscape which breaks the chain
 Excluding module ConcertSharedSlate: Not under compatible directories
+Found circular reference to Engine.Build.cs, but Engine declares a cycle on Landscape which breaks the chain
 Excluding module DumpGPUServices: Not under compatible directories
 Excluding module KDevelopSourceCodeAccess: Not under compatible directories
 Excluding module N10XSourceCodeAccess: Not under compatible directories
-Found circular reference to SourceControlWindows.Build.cs, but Engine declares a cycle on Landscape which breaks the chain
+Found circular reference to UnrealEd.Build.cs, but Engine declares a cycle on Landscape which breaks the chain
 Excluding module NullSourceCodeAccess: Not under compatible directories
 Excluding module PixWinPlugin: Not under compatible directories
 Excluding module PluginUtils: Not under compatible directories
 Excluding module RenderDocPlugin: Not under compatible directories
-Found circular reference to AssetTools.Build.cs, but Engine declares a cycle on Landscape which breaks the chain
 Excluding module RiderSourceCodeAccess: Not under compatible directories
-Found circular reference to UnrealEd.Build.cs, but Engine declares a cycle on Landscape which breaks the chain
 Excluding module UObjectPlugin: Not under compatible directories
 Excluding module VisualStudioCodeSourceCodeAccess: Not under compatible directories
+Found circular reference to BlueprintGraph.Build.cs, but Engine declares a cycle on Landscape which breaks the chain
 Excluding module VisualStudioSourceCodeAccess: Not under compatible directories
 Excluding module XcodeGPUDebuggerPlugin: Not under compatible directories
-Excluding module XCodeSourceCodeAccess: Not under compatible directories
 Found circular reference to Engine.Build.cs, but Engine declares a cycle on Landscape which breaks the chain
+Excluding module XCodeSourceCodeAccess: Not under compatible directories
 Excluding module AssetReferenceRestrictions: Not under compatible directories
+Found circular reference to UnrealEd.Build.cs, but Engine declares a cycle on Landscape which breaks the chain
 Excluding module ContentBrowserAliasDataSource: Not under compatible directories
 Excluding module ContentBrowserAssetDataSource: Not under compatible directories
 Excluding module ContentBrowserClassDataSource: Not under compatible directories
-Excluding module ContentBrowserFileDataSource: Not under compatible directories
 Found circular reference to Engine.Build.cs, but Engine declares a cycle on Landscape which breaks the chain
+Excluding module ContentBrowserFileDataSource: Not under compatible directories
+Found circular reference to UnrealEd.Build.cs, but Engine declares a cycle on Landscape which breaks the chain
+Found circular reference to PropertyEditor.Build.cs, but Engine declares a cycle on Landscape which breaks the chain
 Excluding module EditorScriptingUtilities: Not under compatible directories
 Excluding module FacialAnimationEditor: Not under compatible directories
 Excluding module FacialAnimation: Not under compatible directories
+Found circular reference to PropertyEditor.Build.cs, but Engine declares a cycle on Landscape which breaks the chain
 Excluding module GameplayTagsEditor: Not under compatible directories
 Excluding module IntroTutorials: Not under compatible directories
-Found circular reference to Renderer.Build.cs, but Engine declares a cycle on Landscape which breaks the chain
-Found circular reference to Engine.Build.cs, but Engine declares a cycle on Landscape which breaks the chain
-Found circular reference to Renderer.Build.cs, but Engine declares a cycle on Landscape which breaks the chain
+Found circular reference to AssetTools.Build.cs, but Engine declares a cycle on Landscape which breaks the chain
 Excluding module PortableObjectFileDataSource: Not under compatible directories
+Found circular reference to Engine.Build.cs, but Engine declares a cycle on Landscape which breaks the chain
 Excluding module MacGraphicsSwitching: Not under compatible directories
 Found circular reference to Engine.Build.cs, but Engine declares a cycle on Landscape which breaks the chain
-Found circular reference to Engine.Build.cs, but Engine declares a cycle on Landscape which breaks the chain
 Excluding module MaterialAnalyzer: Not under compatible directories
-Found circular reference to Engine.Build.cs, but Engine declares a cycle on Landscape which breaks the chain
 Excluding module MobileLauncherProfileWizard: Not under compatible directories
-Found circular reference to AudioMixer.Build.cs, but Engine declares a cycle on Landscape which breaks the chain
 Excluding module PluginBrowser: Not under compatible directories
 Excluding module ProxyLODMeshReduction: Not under compatible directories
 Found circular reference to Engine.Build.cs, but Engine declares a cycle on Landscape which breaks the chain
 Excluding module SpeedTreeImporter: Not under compatible directories
 Excluding module StylusInput: Not under compatible directories
 Excluding module WaveformEditorWidgets: Not under compatible directories
+Found circular reference to Renderer.Build.cs, but Engine declares a cycle on Landscape which breaks the chain
 Excluding module WaveformEditor: Not under compatible directories
-Excluding module WaveformTransformationsWidgets: Not under compatible directories
-Found circular reference to AudioMixer.Build.cs, but Engine declares a cycle on Landscape which breaks the chain
 Found circular reference to Engine.Build.cs, but Engine declares a cycle on Landscape which breaks the chain
+Excluding module WaveformTransformationsWidgets: Not under compatible directories
 Excluding module WaveformTransformations: Not under compatible directories
 Excluding module EnhancedInput: Not under compatible directories
+Found circular reference to Engine.Build.cs, but Engine declares a cycle on Landscape which breaks the chain
 Excluding module InputBlueprintNodes: Not under compatible directories
-Found circular reference to Renderer.Build.cs, but Engine declares a cycle on Landscape which breaks the chain
 Excluding module InputEditor: Not under compatible directories
 Excluding module AxFImporter: Not under compatible directories
 Excluding module DataprepCore: Not under compatible directories
 Excluding module DataprepEditorScriptingUtilities: Not under compatible directories
-Found circular reference to Engine.Build.cs, but Engine declares a cycle on Landscape which breaks the chain
-Found circular reference to UnrealEd.Build.cs, but Engine declares a cycle on Landscape which breaks the chain
 Excluding module DataprepEditor: Not under compatible directories
 Excluding module DataprepLibraries: Not under compatible directories
 Excluding module DatasmithC4DTranslator: Not under compatible directories
+Found circular reference to Engine.Build.cs, but Engine declares a cycle on Landscape which breaks the chain
 Excluding module CADInterfaces: Not under compatible directories
 Excluding module CADKernelSurface: Not under compatible directories
-Excluding module CADTools: Not under compatible directories
-Found circular reference to PropertyEditor.Build.cs, but Engine declares a cycle on Landscape which breaks the chain
 Found circular reference to UnrealEd.Build.cs, but Engine declares a cycle on Landscape which breaks the chain
+Excluding module CADTools: Not under compatible directories
 Excluding module DatasmithCADTranslator: Not under compatible directories
 Excluding module DatasmithDispatcher: Not under compatible directories
 Excluding module DatasmithOpenNurbsTranslator: Not under compatible directories
-Found circular reference to Engine.Build.cs, but Engine declares a cycle on Landscape which breaks the chain
-Found circular reference to SourceControlWindows.Build.cs, but Engine declares a cycle on Landscape which breaks the chain
-Found circular reference to Engine.Build.cs, but Engine declares a cycle on Landscape which breaks the chain
-Excluding module DatasmithPLMXMLTranslator: Not under compatible directories
 Found circular reference to UnrealEd.Build.cs, but Engine declares a cycle on Landscape which breaks the chain
+Found circular reference to GraphEditor.Build.cs, but Engine declares a cycle on Landscape which breaks the chain
+Excluding module DatasmithPLMXMLTranslator: Not under compatible directories
 Excluding module ParametricSurfaceExtension: Not under compatible directories
 Excluding module ParametricSurface: Not under compatible directories
-Found circular reference to Landscape.Build.cs, but Engine declares a cycle on Landscape which breaks the chain
-Found circular reference to UnrealEd.Build.cs, but Engine declares a cycle on Landscape which breaks the chain
-Found circular reference to Engine.Build.cs, but Engine declares a cycle on Landscape which breaks the chain
 Excluding module DatasmithContentEditor: Not under compatible directories
-Found circular reference to UnrealEd.Build.cs, but Engine declares a cycle on Landscape which breaks the chain
 Excluding module DatasmithContent: Not under compatible directories
 Excluding module DatasmithDeltaGenTranslator: Not under compatible directories
 Excluding module DatasmithFBXTranslator: Not under compatible directories
 Excluding module DatasmithVREDTranslator: Not under compatible directories
+Found circular reference to PropertyEditor.Build.cs, but Engine declares a cycle on Landscape which breaks the chain
 Excluding module DatasmithExternalSource: Not under compatible directories
 Excluding module DatasmithImporter: Not under compatible directories
 Excluding module DatasmithNativeTranslator: Not under compatible directories
-Found circular reference to PropertyEditor.Build.cs, but Engine declares a cycle on Landscape which breaks the chain
-Excluding module DatasmithTranslator: Not under compatible directories
+Found circular reference to EditorConfig.Build.cs, but Engine declares a cycle on Landscape which breaks the chain
 Found circular reference to Engine.Build.cs, but Engine declares a cycle on Landscape which breaks the chain
+Excluding module DatasmithTranslator: Not under compatible directories
+Found circular reference to AssetTools.Build.cs, but Engine declares a cycle on Landscape which breaks the chain
 Excluding module DirectLinkExtensionEditor: Not under compatible directories
+Found circular reference to SourceControlWindows.Build.cs, but Engine declares a cycle on Landscape which breaks the chain
 Excluding module DirectLinkExtension: Not under compatible directories
 Excluding module DirectLinkTest: Not under compatible directories
-Found circular reference to Engine.Build.cs, but Engine declares a cycle on Landscape which breaks the chain
 Found circular reference to UnrealEd.Build.cs, but Engine declares a cycle on Landscape which breaks the chain
 Excluding module ExternalSource: Not under compatible directories
 Excluding module LidarPointCloudEditor: Not under compatible directories
-Found circular reference to PropertyEditor.Build.cs, but Engine declares a cycle on Landscape which breaks the chain
-Found circular reference to Engine.Build.cs, but Engine declares a cycle on Landscape which breaks the chain
-Found circular reference to Engine.Build.cs, but Engine declares a cycle on Landscape which breaks the chain
 Excluding module LidarPointCloudRuntime: Not under compatible directories
-Excluding module MDLImporter: Not under compatible directories
 Found circular reference to Engine.Build.cs, but Engine declares a cycle on Landscape which breaks the chain
+Excluding module MDLImporter: Not under compatible directories
 Excluding module VariantManagerContentEditor: Not under compatible directories
 Excluding module VariantManagerContent: Not under compatible directories
-Found circular reference to Renderer.Build.cs, but Engine declares a cycle on Landscape which breaks the chain
-Found circular reference to Landscape.Build.cs, but Engine declares a cycle on Landscape which breaks the chain
 Found circular reference to UnrealEd.Build.cs, but Engine declares a cycle on Landscape which breaks the chain
-Found circular reference to Engine.Build.cs, but Engine declares a cycle on Landscape which breaks the chain
 Excluding module VariantManager: Not under compatible directories
 Excluding module AbilitySystemGameFeatureActions: Not under compatible directories
-Found circular reference to UnrealEd.Build.cs, but Engine declares a cycle on Landscape which breaks the chain
 Excluding module AnimNextEditor: Not under compatible directories
 Excluding module AnimNextTestSuite: Not under compatible directories
 Excluding module AnimNextUncookedOnly: Not under compatible directories
 Excluding module AnimNext: Not under compatible directories
 Excluding module AppleVisionBlueprintSupport: Not under compatible directories
+Found circular reference to Engine.Build.cs, but Engine declares a cycle on Landscape which breaks the chain
 Excluding module AppleVision: Not under compatible directories
+Found circular reference to SourceControlWindows.Build.cs, but Engine declares a cycle on Landscape which breaks the chain
 Excluding module AutomationUtilsEditor: Not under compatible directories
-Found circular reference to MainFrame.Build.cs, but Engine declares a cycle on Landscape which breaks the chain
+Found circular reference to UnrealEd.Build.cs, but Engine declares a cycle on Landscape which breaks the chain
+Found circular reference to AssetTools.Build.cs, but Engine declares a cycle on Landscape which breaks the chain
 Excluding module AutomationUtils: Not under compatible directories
 Excluding module BlueprintStats: Not under compatible directories
-Found circular reference to PropertyEditor.Build.cs, but Engine declares a cycle on Landscape which breaks the chain
-Found circular reference to Renderer.Build.cs, but Engine declares a cycle on Landscape which breaks the chain
+Found circular reference to KismetCompiler.Build.cs, but Engine declares a cycle on Landscape which breaks the chain
+Found circular reference to Kismet.Build.cs, but Engine declares a cycle on Landscape which breaks the chain
 Excluding module ChaosCachingUSD: Not under compatible directories
-Found circular reference to UnrealEd.Build.cs, but Engine declares a cycle on Landscape which breaks the chain
 Excluding module ChaosCachingEditor: Not under compatible directories
+Found circular reference to Engine.Build.cs, but Engine declares a cycle on Landscape which breaks the chain
 Excluding module ChaosCaching: Not under compatible directories
 Excluding module ChaosFleshEditor: Not under compatible directories
-Found circular reference to MaterialShaderQualitySettings.Build.cs, but Engine declares a cycle on Landscape which breaks the chain
+Found circular reference to UnrealEd.Build.cs, but Engine declares a cycle on Landscape which breaks the chain
 Excluding module ChaosFleshEngine: Not under compatible directories
 Excluding module ChaosFleshNodes: Not under compatible directories
-Excluding module ChaosFlesh: Not under compatible directories
 Found circular reference to Engine.Build.cs, but Engine declares a cycle on Landscape which breaks the chain
-Found circular reference to UnrealEd.Build.cs, but Engine declares a cycle on Landscape which breaks the chain
-Found circular reference to PropertyEditor.Build.cs, but Engine declares a cycle on Landscape which breaks the chain
-Found circular reference to Renderer.Build.cs, but Engine declares a cycle on Landscape which breaks the chain
+Excluding module ChaosFlesh: Not under compatible directories
 Excluding module ChaosModularVehicleEngine: Not under compatible directories
 Excluding module ChaosModularVehicle: Not under compatible directories
-Excluding module ChaosSolverEditor: Not under compatible directories
-Found circular reference to Engine.Build.cs, but Engine declares a cycle on Landscape which breaks the chain
 Found circular reference to UnrealEd.Build.cs, but Engine declares a cycle on Landscape which breaks the chain
+Excluding module ChaosSolverEditor: Not under compatible directories
 Excluding module ChaosUserDataPT: Not under compatible directories
 Excluding module ChaosVehiclesEditor: Not under compatible directories
+Found circular reference to Engine.Build.cs, but Engine declares a cycle on Landscape which breaks the chain
 Excluding module ChaosVehicles: Not under compatible directories
 Excluding module ChooserEditor: Not under compatible directories
 Found circular reference to Engine.Build.cs, but Engine declares a cycle on Landscape which breaks the chain
 Excluding module ChooserUncooked: Not under compatible directories
-Found circular reference to UnrealEd.Build.cs, but Engine declares a cycle on Landscape which breaks the chain
 Excluding module Chooser: Not under compatible directories
 Excluding module ProxyTableEditor: Not under compatible directories
 Found circular reference to Engine.Build.cs, but Engine declares a cycle on Landscape which breaks the chain
@@ -3116,258 +3054,275 @@ Excluding module ProxyTable: Not under compatible directories
 Excluding module CodeEditor: Not under compatible directories
 Excluding module CodeView: Not under compatible directories
 Excluding module DataflowEditor: Not under compatible directories
-Found circular reference to PropertyEditor.Build.cs, but Engine declares a cycle on Landscape which breaks the chain
+Found circular reference to AnimGraph.Build.cs, but Engine declares a cycle on Landscape which breaks the chain
 Excluding module DataflowEnginePlugin: Not under compatible directories
 Excluding module DataflowNodes: Not under compatible directories
-Found circular reference to UnrealEd.Build.cs, but Engine declares a cycle on Landscape which breaks the chain
-Found circular reference to GraphEditor.Build.cs, but Engine declares a cycle on Landscape which breaks the chain
+Found circular reference to Engine.Build.cs, but Engine declares a cycle on Landscape which breaks the chain
 Excluding module DataprepGeometryOperations: Not under compatible directories
-Found circular reference to Documentation.Build.cs, but Engine declares a cycle on Landscape which breaks the chain
+Found circular reference to UnrealEd.Build.cs, but Engine declares a cycle on Landscape which breaks the chain
 Excluding module DatasmithInterchange: Not under compatible directories
 Excluding module FieldSystemEditor: Not under compatible directories
 Excluding module FractureEngine: Not under compatible directories
-Found circular reference to UnrealEd.Build.cs, but Engine declares a cycle on Landscape which breaks the chain
-Found circular reference to Engine.Build.cs, but Engine declares a cycle on Landscape which breaks the chain
 Excluding module GameInputWindows: Not under compatible directories
 Excluding module GameplayBehaviorsEditorModule: Not under compatible directories
-Excluding module GameplayBehaviorsModule: Not under compatible directories
+Found circular reference to PropertyEditor.Build.cs, but Engine declares a cycle on Landscape which breaks the chain
 Found circular reference to Engine.Build.cs, but Engine declares a cycle on Landscape which breaks the chain
+Excluding module GameplayBehaviorsModule: Not under compatible directories
+Found circular reference to UnrealEd.Build.cs, but Engine declares a cycle on Landscape which breaks the chain
 Excluding module GameplayBehaviorsTestSuite: Not under compatible directories
 Excluding module GameplayGraph: Not under compatible directories
-Found circular reference to UnrealEd.Build.cs, but Engine declares a cycle on Landscape which breaks the chain
-Found circular reference to PropertyEditor.Build.cs, but Engine declares a cycle on Landscape which breaks the chain
+Found circular reference to Engine.Build.cs, but Engine declares a cycle on Landscape which breaks the chain
 Excluding module Gauntlet: Not under compatible directories
 Excluding module GeometryCollectionEditor: Not under compatible directories
 Excluding module GeometryCollectionNodes: Not under compatible directories
-Excluding module GeometryCollectionSequencer: Not under compatible directories
-Found circular reference to Engine.Build.cs, but Engine declares a cycle on Landscape which breaks the chain
 Found circular reference to UnrealEd.Build.cs, but Engine declares a cycle on Landscape which breaks the chain
+Excluding module GeometryCollectionSequencer: Not under compatible directories
+Found circular reference to EditorConfig.Build.cs, but Engine declares a cycle on Landscape which breaks the chain
+Found circular reference to SourceControlWindows.Build.cs, but Engine declares a cycle on Landscape which breaks the chain
 Excluding module GeometryCollectionTracks: Not under compatible directories
-Found circular reference to Engine.Build.cs, but Engine declares a cycle on Landscape which breaks the chain
 Excluding module GizmoSettings: Not under compatible directories
 Excluding module GPULightmassEditor: Not under compatible directories
-Found circular reference to UnrealEd.Build.cs, but Engine declares a cycle on Landscape which breaks the chain
 Excluding module GPULightmass: Not under compatible directories
 Excluding module ImagePlateEditor: Not under compatible directories
 Found circular reference to AssetTools.Build.cs, but Engine declares a cycle on Landscape which breaks the chain
 Excluding module ImagePlate: Not under compatible directories
+Found circular reference to UnrealEd.Build.cs, but Engine declares a cycle on Landscape which breaks the chain
 Excluding module InstanceDataObjectFixupTool: Not under compatible directories
-Found circular reference to Engine.Build.cs, but Engine declares a cycle on Landscape which breaks the chain
 Excluding module JWT: Not under compatible directories
 Excluding module LiveLinkControlRig: Not under compatible directories
 Excluding module LocalizableMessageBlueprint: Not under compatible directories
 Excluding module LocalizableMessage: Not under compatible directories
+Found circular reference to Engine.Build.cs, but Engine declares a cycle on Landscape which breaks the chain
 Excluding module MotorSimOutputMotoSynth: Not under compatible directories
 Excluding module MotoSynthEditor: Not under compatible directories
 Excluding module MotoSynth: Not under compatible directories
 Excluding module MutableRuntime: Not under compatible directories
-Found circular reference to UnrealEd.Build.cs, but Engine declares a cycle on Landscape which breaks the chain
-Excluding module MutableTools: Not under compatible directories
-Excluding module MutableValidation: Not under compatible directories
-Excluding module NaniteDisplacedMeshEditor: Not under compatible directories
-Excluding module NaniteDisplacedMesh: Not under compatible directories
-Found circular reference to Kismet.Build.cs, but Engine declares a cycle on Landscape which breaks the chain
-Excluding module OpenImageDenoise: Not under compatible directories
 Found circular reference to Engine.Build.cs, but Engine declares a cycle on Landscape which breaks the chain
+Excluding module MutableTools: Not under compatible directories
+Found circular reference to Renderer.Build.cs, but Engine declares a cycle on Landscape which breaks the chain
+Excluding module MutableValidation: Not under compatible directories
+Found circular reference to Engine.Build.cs, but Engine declares a cycle on Landscape which breaks the chain
+Excluding module NaniteDisplacedMeshEditor: Not under compatible directories
+Found circular reference to Renderer.Build.cs, but Engine declares a cycle on Landscape which breaks the chain
+Excluding module NaniteDisplacedMesh: Not under compatible directories
+Excluding module OpenImageDenoise: Not under compatible directories
 Excluding module OptiXDenoise: Not under compatible directories
 Excluding module PanoramicCapture: Not under compatible directories
-Found circular reference to UnrealEd.Build.cs, but Engine declares a cycle on Landscape which breaks the chain
+Found circular reference to Engine.Build.cs, but Engine declares a cycle on Landscape which breaks the chain
+Found circular reference to Engine.Build.cs, but Engine declares a cycle on Landscape which breaks the chain
 Excluding module PCGWaterInterop: Not under compatible directories
+Found circular reference to Engine.Build.cs, but Engine declares a cycle on Landscape which breaks the chain
 Excluding module PixelStreamingPlayerEditor: Not under compatible directories
 Excluding module PixelStreamingPlayer: Not under compatible directories
+Found circular reference to AudioMixer.Build.cs, but Engine declares a cycle on Landscape which breaks the chain
 Excluding module PlanarCut: Not under compatible directories
 Excluding module PlatformCryptoOpenSSL: Not under compatible directories
-Found circular reference to GraphEditor.Build.cs, but Engine declares a cycle on Landscape which breaks the chain
 Excluding module PlatformCryptoTypes: Not under compatible directories
 Excluding module PlatformCrypto: Not under compatible directories
 Excluding module PPMChainGraphEditor: Not under compatible directories
-Found circular reference to Engine.Build.cs, but Engine declares a cycle on Landscape which breaks the chain
 Excluding module PythonScriptPluginPreload: Not under compatible directories
+Found circular reference to Engine.Build.cs, but Engine declares a cycle on Landscape which breaks the chain
 Excluding module PythonScriptPlugin: Not under compatible directories
-Found circular reference to UnrealEd.Build.cs, but Engine declares a cycle on Landscape which breaks the chain
 Excluding module QuicMessagingTransport: Not under compatible directories
 Excluding module QuicMessaging: Not under compatible directories
+Found circular reference to AudioMixer.Build.cs, but Engine declares a cycle on Landscape which breaks the chain
 Excluding module RawInput: Not under compatible directories
 Excluding module SecuritySandbox: Not under compatible directories
 Excluding module Shotgrid: Not under compatible directories
+Found circular reference to Engine.Build.cs, but Engine declares a cycle on Landscape which breaks the chain
 Excluding module SimpleHMD: Not under compatible directories
 Excluding module SkeletalMeshReduction: Not under compatible directories
 Excluding module StormSyncTransportClient: Not under compatible directories
-Found circular reference to UnrealEd.Build.cs, but Engine declares a cycle on Landscape which breaks the chain
-Found circular reference to Engine.Build.cs, but Engine declares a cycle on Landscape which breaks the chain
 Excluding module StormSyncTransportCore: Not under compatible directories
 Excluding module StormSyncTransportServer: Not under compatible directories
+Found circular reference to Renderer.Build.cs, but Engine declares a cycle on Landscape which breaks the chain
 Excluding module StructUtilsEditor: Not under compatible directories
 Excluding module StructUtilsEngine: Not under compatible directories
 Found circular reference to Engine.Build.cs, but Engine declares a cycle on Landscape which breaks the chain
 Excluding module StructUtilsNodes: Not under compatible directories
 Excluding module StructUtilsTestSuite: Not under compatible directories
+Found circular reference to UnrealEd.Build.cs, but Engine declares a cycle on Landscape which breaks the chain
 Excluding module StructUtils: Not under compatible directories
+Found circular reference to PropertyEditor.Build.cs, but Engine declares a cycle on Landscape which breaks the chain
 Excluding module AnalyticsHorde: Not under compatible directories
 Found circular reference to UnrealEd.Build.cs, but Engine declares a cycle on Landscape which breaks the chain
 Excluding module AnalyticsLog: Not under compatible directories
 Excluding module TargetDeviceServicesScripting: Not under compatible directories
 Excluding module TetMeshing: Not under compatible directories
 Excluding module TextureMediaPlayerFactory: Not under compatible directories
-Excluding module TextureMediaPlayer: Not under compatible directories
-Excluding module ToolPresetEditor: Not under compatible directories
 Found circular reference to Engine.Build.cs, but Engine declares a cycle on Landscape which breaks the chain
+Excluding module TextureMediaPlayer: Not under compatible directories
+Found circular reference to SourceControlWindows.Build.cs, but Engine declares a cycle on Landscape which breaks the chain
+Excluding module ToolPresetEditor: Not under compatible directories
 Excluding module WebSocketNetworking: Not under compatible directories
-Found circular reference to UnrealEd.Build.cs, but Engine declares a cycle on Landscape which breaks the chain
+Found circular reference to Engine.Build.cs, but Engine declares a cycle on Landscape which breaks the chain
 Excluding module NiagaraFluids: Not under compatible directories
 Excluding module NiagaraMRQ: Not under compatible directories
+Found circular reference to UnrealEd.Build.cs, but Engine declares a cycle on Landscape which breaks the chain
 Excluding module NiagaraSimCachingEditor: Not under compatible directories
-Found circular reference to Kismet.Build.cs, but Engine declares a cycle on Landscape which breaks the chain
 Excluding module NiagaraSimCaching: Not under compatible directories
+Found circular reference to Landscape.Build.cs, but Engine declares a cycle on Landscape which breaks the chain
 Excluding module AlembicHairTranslatorModule: Not under compatible directories
+Found circular reference to UnrealEd.Build.cs, but Engine declares a cycle on Landscape which breaks the chain
 Excluding module USDClassesEditor: Not under compatible directories
-Found circular reference to Documentation.Build.cs, but Engine declares a cycle on Landscape which breaks the chain
-Excluding module USDClasses: Not under compatible directories
 Found circular reference to Engine.Build.cs, but Engine declares a cycle on Landscape which breaks the chain
+Excluding module USDClasses: Not under compatible directories
 Excluding module USDExporter: Not under compatible directories
 Found circular reference to UnrealEd.Build.cs, but Engine declares a cycle on Landscape which breaks the chain
 Excluding module USDSchemas: Not under compatible directories
 Excluding module USDStageEditorViewModels: Not under compatible directories
 Excluding module USDStageEditor: Not under compatible directories
-Found circular reference to Engine.Build.cs, but Engine declares a cycle on Landscape which breaks the chain
 Excluding module USDStageImporter: Not under compatible directories
-Found circular reference to UnrealEd.Build.cs, but Engine declares a cycle on Landscape which breaks the chain
-Found circular reference to MainFrame.Build.cs, but Engine declares a cycle on Landscape which breaks the chain
 Excluding module USDStage: Not under compatible directories
-Found circular reference to PropertyEditor.Build.cs, but Engine declares a cycle on Landscape which breaks the chain
 Excluding module USDTests: Not under compatible directories
 Excluding module USDUtilities: Not under compatible directories
 Excluding module UnrealUSDWrapper: Not under compatible directories
-Found circular reference to AssetTools.Build.cs, but Engine declares a cycle on Landscape which breaks the chain
+Found circular reference to PropertyEditor.Build.cs, but Engine declares a cycle on Landscape which breaks the chain
 Excluding module InterchangeEditor: Not under compatible directories
 Excluding module InterchangeEditorPipelines: Not under compatible directories
 Excluding module InterchangeEditorUtilities: Not under compatible directories
+Found circular reference to Engine.Build.cs, but Engine declares a cycle on Landscape which breaks the chain
 Excluding module InterchangeCommon: Not under compatible directories
 Excluding module InterchangeDispatcher: Not under compatible directories
 Excluding module InterchangeExport: Not under compatible directories
 Excluding module InterchangeFactoryNodes: Not under compatible directories
-Excluding module InterchangeImport: Not under compatible directories
 Found circular reference to Engine.Build.cs, but Engine declares a cycle on Landscape which breaks the chain
-Excluding module InterchangeMessages: Not under compatible directories
 Found circular reference to UnrealEd.Build.cs, but Engine declares a cycle on Landscape which breaks the chain
+Found circular reference to PropertyEditor.Build.cs, but Engine declares a cycle on Landscape which breaks the chain
+Excluding module InterchangeImport: Not under compatible directories
+Excluding module InterchangeMessages: Not under compatible directories
+Found circular reference to Engine.Build.cs, but Engine declares a cycle on Landscape which breaks the chain
 Excluding module InterchangeNodes: Not under compatible directories
+Found circular reference to Engine.Build.cs, but Engine declares a cycle on Landscape which breaks the chain
 Excluding module InterchangeCommonParser: Not under compatible directories
 Excluding module InterchangeFbxParser: Not under compatible directories
 Excluding module GLTFCore: Not under compatible directories
-Found circular reference to Landscape.Build.cs, but Engine declares a cycle on Landscape which breaks the chain
-Found circular reference to PropertyEditor.Build.cs, but Engine declares a cycle on Landscape which breaks the chain
+Found circular reference to Engine.Build.cs, but Engine declares a cycle on Landscape which breaks the chain
 Excluding module InterchangePipelines: Not under compatible directories
+Found circular reference to Renderer.Build.cs, but Engine declares a cycle on Landscape which breaks the chain
 Excluding module AjaMediaEditor: Not under compatible directories
 Excluding module AjaMediaFactory: Not under compatible directories
+Found circular reference to Landscape.Build.cs, but Engine declares a cycle on Landscape which breaks the chain
+Found circular reference to UnrealEd.Build.cs, but Engine declares a cycle on Landscape which breaks the chain
 Excluding module AjaMediaOutput: Not under compatible directories
 Found circular reference to Engine.Build.cs, but Engine declares a cycle on Landscape which breaks the chain
 Excluding module AjaMedia: Not under compatible directories
-Found circular reference to Landscape.Build.cs, but Engine declares a cycle on Landscape which breaks the chain
-Excluding module AndroidCameraEditor: Not under compatible directories
 Found circular reference to UnrealEd.Build.cs, but Engine declares a cycle on Landscape which breaks the chain
+Excluding module AndroidCameraEditor: Not under compatible directories
+Found circular reference to MainFrame.Build.cs, but Engine declares a cycle on Landscape which breaks the chain
 Excluding module AndroidCameraFactory: Not under compatible directories
-Found circular reference to Kismet.Build.cs, but Engine declares a cycle on Landscape which breaks the chain
 Excluding module AndroidCamera: Not under compatible directories
+Found circular reference to PropertyEditor.Build.cs, but Engine declares a cycle on Landscape which breaks the chain
+Found circular reference to Renderer.Build.cs, but Engine declares a cycle on Landscape which breaks the chain
 Excluding module AndroidMediaEditor: Not under compatible directories
 Excluding module AndroidMediaFactory: Not under compatible directories
-Found circular reference to Engine.Build.cs, but Engine declares a cycle on Landscape which breaks the chain
 Excluding module AndroidMedia: Not under compatible directories
+Found circular reference to UnrealEd.Build.cs, but Engine declares a cycle on Landscape which breaks the chain
 Excluding module AppleProResDecoderElectra: Not under compatible directories
 Excluding module AppleProResMedia: Not under compatible directories
 Excluding module AudioCaptureTimecodeProvider: Not under compatible directories
-Found circular reference to Engine.Build.cs, but Engine declares a cycle on Landscape which breaks the chain
+Found circular reference to MaterialShaderQualitySettings.Build.cs, but Engine declares a cycle on Landscape which breaks the chain
 Excluding module AvfMediaCapture: Not under compatible directories
-Found circular reference to UnrealEd.Build.cs, but Engine declares a cycle on Landscape which breaks the chain
 Excluding module AvfMediaEditor: Not under compatible directories
 Excluding module AvfMediaFactory: Not under compatible directories
-Excluding module AvfMedia: Not under compatible directories
 Found circular reference to Engine.Build.cs, but Engine declares a cycle on Landscape which breaks the chain
+Found circular reference to UnrealEd.Build.cs, but Engine declares a cycle on Landscape which breaks the chain
+Found circular reference to PropertyEditor.Build.cs, but Engine declares a cycle on Landscape which breaks the chain
+Excluding module AvfMedia: Not under compatible directories
 Excluding module AvidDNxHDDecoderElectra: Not under compatible directories
+Found circular reference to Renderer.Build.cs, but Engine declares a cycle on Landscape which breaks the chain
 Excluding module AvidDNxMedia: Not under compatible directories
 Excluding module BlackmagicMediaEditor: Not under compatible directories
 Excluding module BlackmagicMediaFactory: Not under compatible directories
 Excluding module BlackmagicMediaOutput: Not under compatible directories
+Found circular reference to Engine.Build.cs, but Engine declares a cycle on Landscape which breaks the chain
 Excluding module BlackmagicMedia: Not under compatible directories
 Excluding module ElectraCDM: Not under compatible directories
+Found circular reference to UnrealEd.Build.cs, but Engine declares a cycle on Landscape which breaks the chain
 Excluding module ElectraCodecFactory: Not under compatible directories
 Excluding module ElectraDecoders: Not under compatible directories
 Excluding module ElectraPlayerFactory: Not under compatible directories
 Excluding module ElectraPlayerPluginHandler: Not under compatible directories
 Found circular reference to Engine.Build.cs, but Engine declares a cycle on Landscape which breaks the chain
 Excluding module ElectraPlayerPlugin: Not under compatible directories
+Found circular reference to UnrealEd.Build.cs, but Engine declares a cycle on Landscape which breaks the chain
 Excluding module ElectraPlayerRuntime: Not under compatible directories
-Found circular reference to PropertyEditor.Build.cs, but Engine declares a cycle on Landscape which breaks the chain
 Excluding module ElectraSubtitles: Not under compatible directories
+Found circular reference to Engine.Build.cs, but Engine declares a cycle on Landscape which breaks the chain
 Excluding module ElectraBase: Not under compatible directories
 Excluding module ElectraSamples: Not under compatible directories
-Found circular reference to UnrealEd.Build.cs, but Engine declares a cycle on Landscape which breaks the chain
 Excluding module HAPDecoderElectra: Not under compatible directories
 Excluding module HAPMedia: Not under compatible directories
-Found circular reference to Engine.Build.cs, but Engine declares a cycle on Landscape which breaks the chain
+Found circular reference to PropertyEditor.Build.cs, but Engine declares a cycle on Landscape which breaks the chain
 Excluding module ExrReaderGpu: Not under compatible directories
+Found circular reference to UnrealEd.Build.cs, but Engine declares a cycle on Landscape which breaks the chain
+Found circular reference to GraphEditor.Build.cs, but Engine declares a cycle on Landscape which breaks the chain
 Excluding module ImgMediaEditor: Not under compatible directories
 Excluding module ImgMediaEngine: Not under compatible directories
 Excluding module ImgMediaFactory: Not under compatible directories
+Found circular reference to Documentation.Build.cs, but Engine declares a cycle on Landscape which breaks the chain
 Excluding module ImgMedia: Not under compatible directories
-Found circular reference to Engine.Build.cs, but Engine declares a cycle on Landscape which breaks the chain
-Found circular reference to GraphEditor.Build.cs, but Engine declares a cycle on Landscape which breaks the chain
 Excluding module OpenExrWrapper: Not under compatible directories
 Excluding module LinearTimecode: Not under compatible directories
 Excluding module MediaCompositingEditor: Not under compatible directories
 Found circular reference to UnrealEd.Build.cs, but Engine declares a cycle on Landscape which breaks the chain
+Found circular reference to Engine.Build.cs, but Engine declares a cycle on Landscape which breaks the chain
 Excluding module MediaCompositing: Not under compatible directories
 Excluding module MediaFrameworkUtilitiesEditor: Not under compatible directories
-Found circular reference to UnrealEd.Build.cs, but Engine declares a cycle on Landscape which breaks the chain
 Excluding module MediaFrameworkUtilities: Not under compatible directories
-Excluding module GPUTextureTransfer: Not under compatible directories
-Found circular reference to MovieSceneTools.Build.cs, but Engine declares a cycle on Landscape which breaks the chain
-Excluding module MediaIOCore: Not under compatible directories
-Excluding module MediaIOEditor: Not under compatible directories
 Found circular reference to Engine.Build.cs, but Engine declares a cycle on Landscape which breaks the chain
+Excluding module GPUTextureTransfer: Not under compatible directories
+Excluding module MediaIOCore: Not under compatible directories
+Found circular reference to UnrealEd.Build.cs, but Engine declares a cycle on Landscape which breaks the chain
+Found circular reference to PropertyEditor.Build.cs, but Engine declares a cycle on Landscape which breaks the chain
+Excluding module MediaIOEditor: Not under compatible directories
 Excluding module MfMediaEditor: Not under compatible directories
 Excluding module MfMediaFactory: Not under compatible directories
-Found circular reference to MovieSceneTools.Build.cs, but Engine declares a cycle on Landscape which breaks the chain
 Excluding module MfMedia: Not under compatible directories
+Found circular reference to Engine.Build.cs, but Engine declares a cycle on Landscape which breaks the chain
+Found circular reference to UnrealEd.Build.cs, but Engine declares a cycle on Landscape which breaks the chain
 Excluding module OpusDecoderElectra: Not under compatible directories
+Found circular reference to Engine.Build.cs, but Engine declares a cycle on Landscape which breaks the chain
 Excluding module PixelCaptureShaders: Not under compatible directories
-Found circular reference to PropertyEditor.Build.cs, but Engine declares a cycle on Landscape which breaks the chain
 Excluding module PixelCapture: Not under compatible directories
 Excluding module PixelStreamingBlueprintEditor: Not under compatible directories
 Found circular reference to UnrealEd.Build.cs, but Engine declares a cycle on Landscape which breaks the chain
 Excluding module PixelStreamingBlueprint: Not under compatible directories
 Excluding module PixelStreamingEditor: Not under compatible directories
+Found circular reference to AssetTools.Build.cs, but Engine declares a cycle on Landscape which breaks the chain
 Excluding module PixelStreamingHMD: Not under compatible directories
-Found circular reference to GraphEditor.Build.cs, but Engine declares a cycle on Landscape which breaks the chain
-Found circular reference to PropertyEditor.Build.cs, but Engine declares a cycle on Landscape which breaks the chain
 Excluding module PixelStreamingInput: Not under compatible directories
-Excluding module PixelStreamingServers: Not under compatible directories
 Found circular reference to Engine.Build.cs, but Engine declares a cycle on Landscape which breaks the chain
+Excluding module PixelStreamingServers: Not under compatible directories
 Excluding module PixelStreaming: Not under compatible directories
 Excluding module VPxDecoderElectra: Not under compatible directories
-Found circular reference to UnrealEd.Build.cs, but Engine declares a cycle on Landscape which breaks the chain
 Excluding module WebMMediaEditor: Not under compatible directories
 Excluding module WebMMediaFactory: Not under compatible directories
 Excluding module WebMMedia: Not under compatible directories
 Excluding module WmfMediaEditor: Not under compatible directories
+Found circular reference to UnrealEd.Build.cs, but Engine declares a cycle on Landscape which breaks the chain
 Excluding module WmfMediaFactory: Not under compatible directories
 Excluding module WmfMedia: Not under compatible directories
 Excluding module MemoryUsageQueries: Not under compatible directories
 Excluding module MeshPaintEditorMode: Not under compatible directories
+Found circular reference to Kismet.Build.cs, but Engine declares a cycle on Landscape which breaks the chain
 Excluding module MeshPaintingToolset: Not under compatible directories
+Found circular reference to Engine.Build.cs, but Engine declares a cycle on Landscape which breaks the chain
 Excluding module TcpMessaging: Not under compatible directories
 Excluding module UdpMessaging: Not under compatible directories
-Found circular reference to PropertyEditor.Build.cs, but Engine declares a cycle on Landscape which breaks the chain
+Found circular reference to UnrealEd.Build.cs, but Engine declares a cycle on Landscape which breaks the chain
 Excluding module NetcodeUnitTest: Not under compatible directories
 Excluding module NUTUnrealEngine: Not under compatible directories
 Excluding module AndroidFetchBackgroundDownload: Not under compatible directories
 Excluding module OnlineBase: Not under compatible directories
-Found circular reference to Engine.Build.cs, but Engine declares a cycle on Landscape which breaks the chain
+Found circular reference to GraphEditor.Build.cs, but Engine declares a cycle on Landscape which breaks the chain
 Excluding module EOSVoiceChat: Not under compatible directories
 Excluding module VoiceChat: Not under compatible directories
 Excluding module PCGExternalDataInteropEditor: Not under compatible directories
-Found circular reference to Sequencer.Build.cs, but Engine declares a cycle on Landscape which breaks the chain
+Found circular reference to Engine.Build.cs, but Engine declares a cycle on Landscape which breaks the chain
 Excluding module PCGExternalDataInterop: Not under compatible directories
 Excluding module PCGGeometryScriptInterop: Not under compatible directories
+Found circular reference to UnrealEd.Build.cs, but Engine declares a cycle on Landscape which breaks the chain
 Excluding module PCGCompute: Not under compatible directories
 Excluding module PCGEditor: Not under compatible directories
 Excluding module PCG: Not under compatible directories
@@ -3375,223 +3330,270 @@ Excluding module PerformanceMonitor: Not under compatible directories
 Excluding module RenderGraphInsights: Not under compatible directories
 Excluding module IOSTapJoy: Not under compatible directories
 Excluding module AndroidAdjust: Not under compatible directories
+Found circular reference to UnrealEd.Build.cs, but Engine declares a cycle on Landscape which breaks the chain
+Found circular reference to Engine.Build.cs, but Engine declares a cycle on Landscape which breaks the chain
 Excluding module IOSAdjust: Not under compatible directories
 Excluding module AnalyticsBlueprintLibrary: Not under compatible directories
 Excluding module AnalyticsMulticast: Not under compatible directories
+Found circular reference to Engine.Build.cs, but Engine declares a cycle on Landscape which breaks the chain
 Excluding module FileLogging: Not under compatible directories
 Excluding module IOSFlurry: Not under compatible directories
-Found circular reference to Kismet.Build.cs, but Engine declares a cycle on Landscape which breaks the chain
 Excluding module AndroidBackgroundService: Not under compatible directories
-Found circular reference to GraphEditor.Build.cs, but Engine declares a cycle on Landscape which breaks the chain
 Excluding module AndroidDeviceProfileSelectorRuntime: Not under compatible directories
+Found circular reference to UnrealEd.Build.cs, but Engine declares a cycle on Landscape which breaks the chain
 Excluding module AndroidFileServerEditor: Not under compatible directories
 Excluding module AndroidMoviePlayer: Not under compatible directories
 Excluding module AppleImageUtilsBlueprintSupport: Not under compatible directories
 Excluding module AppleImageUtils: Not under compatible directories
 Excluding module AppleMoviePlayer: Not under compatible directories
-Found circular reference to PropertyEditor.Build.cs, but Engine declares a cycle on Landscape which breaks the chain
 Excluding module ArchVisCharacter: Not under compatible directories
+Found circular reference to Engine.Build.cs, but Engine declares a cycle on Landscape which breaks the chain
 Excluding module AzureSpatialAnchorsForARCore: Not under compatible directories
+Found circular reference to UnrealEd.Build.cs, but Engine declares a cycle on Landscape which breaks the chain
 Excluding module AzureSpatialAnchorsForARKit: Not under compatible directories
 Excluding module AzureSpatialAnchors: Not under compatible directories
-Found circular reference to Engine.Build.cs, but Engine declares a cycle on Landscape which breaks the chain
 Excluding module GoogleARCoreServices: Not under compatible directories
+Found circular reference to Kismet.Build.cs, but Engine declares a cycle on Landscape which breaks the chain
 Excluding module GoogleARCoreBase: Not under compatible directories
 Excluding module AssetTags: Not under compatible directories
 Excluding module AudioCapture: Not under compatible directories
-Found circular reference to PropertyEditor.Build.cs, but Engine declares a cycle on Landscape which breaks the chain
+Found circular reference to Documentation.Build.cs, but Engine declares a cycle on Landscape which breaks the chain
 Excluding module AudioModulation: Not under compatible directories
-Found circular reference to UnrealEd.Build.cs, but Engine declares a cycle on Landscape which breaks the chain
+Found circular reference to Engine.Build.cs, but Engine declares a cycle on Landscape which breaks the chain
 Excluding module AudioSynesthesiaCore: Not under compatible directories
-Found circular reference to GraphEditor.Build.cs, but Engine declares a cycle on Landscape which breaks the chain
 Excluding module AudioSynesthesia: Not under compatible directories
+Found circular reference to UnrealEd.Build.cs, but Engine declares a cycle on Landscape which breaks the chain
 Excluding module CableComponent: Not under compatible directories
-Found circular reference to MainFrame.Build.cs, but Engine declares a cycle on Landscape which breaks the chain
-Found circular reference to Landscape.Build.cs, but Engine declares a cycle on Landscape which breaks the chain
 Excluding module ComputeFrameworkEditor: Not under compatible directories
+Found circular reference to Engine.Build.cs, but Engine declares a cycle on Landscape which breaks the chain
 Excluding module ComputeFramework: Not under compatible directories
+Found circular reference to UnrealEd.Build.cs, but Engine declares a cycle on Landscape which breaks the chain
+Found circular reference to MainFrame.Build.cs, but Engine declares a cycle on Landscape which breaks the chain
+Found circular reference to PropertyEditor.Build.cs, but Engine declares a cycle on Landscape which breaks the chain
+Found circular reference to AssetTools.Build.cs, but Engine declares a cycle on Landscape which breaks the chain
 Excluding module CustomMeshComponent: Not under compatible directories
 Excluding module ADOSupport: Not under compatible directories
 Excluding module DatabaseSupport: Not under compatible directories
-Found circular reference to Engine.Build.cs, but Engine declares a cycle on Landscape which breaks the chain
 Excluding module RemoteDatabaseSupport: Not under compatible directories
-Found circular reference to UnrealEd.Build.cs, but Engine declares a cycle on Landscape which breaks the chain
 Excluding module SQLiteCore: Not under compatible directories
 Excluding module SQLiteSupport: Not under compatible directories
 Excluding module DataRegistryEditor: Not under compatible directories
+Found circular reference to Engine.Build.cs, but Engine declares a cycle on Landscape which breaks the chain
 Excluding module DataRegistry: Not under compatible directories
+Found circular reference to UnrealEd.Build.cs, but Engine declares a cycle on Landscape which breaks the chain
 Excluding module ExampleDeviceProfileSelector: Not under compatible directories
-Found circular reference to PropertyEditor.Build.cs, but Engine declares a cycle on Landscape which breaks the chain
 Excluding module Firebase: Not under compatible directories
 Excluding module GameFeaturesEditor: Not under compatible directories
 Excluding module GameFeatures: Not under compatible directories
 Excluding module GameInputBase: Not under compatible directories
 Excluding module GameplayAbilitiesEditor: Not under compatible directories
-Found circular reference to Kismet.Build.cs, but Engine declares a cycle on Landscape which breaks the chain
+Found circular reference to Landscape.Build.cs, but Engine declares a cycle on Landscape which breaks the chain
+Found circular reference to PropertyEditor.Build.cs, but Engine declares a cycle on Landscape which breaks the chain
 Excluding module GameplayAbilities: Not under compatible directories
 Excluding module GameplayInteractionsModule: Not under compatible directories
 Excluding module GameplayStateTreeModule: Not under compatible directories
 Excluding module GeometryCacheSequencer: Not under compatible directories
+Found circular reference to Engine.Build.cs, but Engine declares a cycle on Landscape which breaks the chain
+Found circular reference to Landscape.Build.cs, but Engine declares a cycle on Landscape which breaks the chain
 Excluding module GeometryCacheStreamer: Not under compatible directories
 Excluding module GeometryCacheTracks: Not under compatible directories
+Found circular reference to UnrealEd.Build.cs, but Engine declares a cycle on Landscape which breaks the chain
 Excluding module GoogleCloudMessaging: Not under compatible directories
+Found circular reference to Kismet.Build.cs, but Engine declares a cycle on Landscape which breaks the chain
 Excluding module GooglePADEditor: Not under compatible directories
 Excluding module HairStrandsCore: Not under compatible directories
 Excluding module HairStrandsDeformer: Not under compatible directories
+Found circular reference to Engine.Build.cs, but Engine declares a cycle on Landscape which breaks the chain
 Excluding module HairStrandsEditor: Not under compatible directories
 Excluding module HairStrandsRuntime: Not under compatible directories
-Found circular reference to PropertyEditor.Build.cs, but Engine declares a cycle on Landscape which breaks the chain
 Excluding module HPMotionController: Not under compatible directories
-Found circular reference to Engine.Build.cs, but Engine declares a cycle on Landscape which breaks the chain
 Excluding module InputDebuggingEditor: Not under compatible directories
 Excluding module InputDebugging: Not under compatible directories
+Found circular reference to Engine.Build.cs, but Engine declares a cycle on Landscape which breaks the chain
 Excluding module InstancedActorsTestSuite: Not under compatible directories
+Found circular reference to UnrealEd.Build.cs, but Engine declares a cycle on Landscape which breaks the chain
 Excluding module InstancedActors: Not under compatible directories
 Excluding module IOSDeviceProfileSelector: Not under compatible directories
 Excluding module IOSReplayKit: Not under compatible directories
+Found circular reference to Engine.Build.cs, but Engine declares a cycle on Landscape which breaks the chain
 Excluding module LevelStreamingPersistence: Not under compatible directories
 Excluding module LinuxDeviceProfileSelector: Not under compatible directories
 Excluding module LocationServicesAndroidImpl: Not under compatible directories
-Found circular reference to GraphEditor.Build.cs, but Engine declares a cycle on Landscape which breaks the chain
 Excluding module LocationServicesBPLibrary: Not under compatible directories
 Excluding module LocationServicesIOSImpl: Not under compatible directories
 Excluding module MassEntityDebugger: Not under compatible directories
 Excluding module MassEntityEditor: Not under compatible directories
-Found circular reference to PropertyEditor.Build.cs, but Engine declares a cycle on Landscape which breaks the chain
 Excluding module MassEntityTestSuite: Not under compatible directories
 Excluding module MassEntity: Not under compatible directories
 Excluding module MassActors: Not under compatible directories
 Excluding module MassCommon: Not under compatible directories
 Excluding module MassGameplayDebug: Not under compatible directories
+Found circular reference to Engine.Build.cs, but Engine declares a cycle on Landscape which breaks the chain
+Found circular reference to PropertyEditor.Build.cs, but Engine declares a cycle on Landscape which breaks the chain
 Excluding module MassGameplayEditor: Not under compatible directories
 Excluding module MassGameplayExternalTraits: Not under compatible directories
-Found circular reference to Engine.Build.cs, but Engine declares a cycle on Landscape which breaks the chain
 Excluding module MassGameplayTestSuite: Not under compatible directories
+Found circular reference to UnrealEd.Build.cs, but Engine declares a cycle on Landscape which breaks the chain
 Excluding module MassLOD: Not under compatible directories
+Found circular reference to Engine.Build.cs, but Engine declares a cycle on Landscape which breaks the chain
 Excluding module MassMovementEditor: Not under compatible directories
 Excluding module MassMovement: Not under compatible directories
 Excluding module MassReplication: Not under compatible directories
 Excluding module MassRepresentation: Not under compatible directories
 Excluding module MassSignals: Not under compatible directories
-Excluding module MassSimulation: Not under compatible directories
 Found circular reference to Engine.Build.cs, but Engine declares a cycle on Landscape which breaks the chain
+Found circular reference to GraphEditor.Build.cs, but Engine declares a cycle on Landscape which breaks the chain
+Excluding module MassSimulation: Not under compatible directories
 Excluding module MassSmartObjects: Not under compatible directories
 Excluding module MassSpawner: Not under compatible directories
-Found circular reference to PropertyEditor.Build.cs, but Engine declares a cycle on Landscape which breaks the chain
+Found circular reference to UnrealEd.Build.cs, but Engine declares a cycle on Landscape which breaks the chain
 Excluding module DummyMeshReconstructor: Not under compatible directories
+Found circular reference to UnrealEd.Build.cs, but Engine declares a cycle on Landscape which breaks the chain
 Excluding module MetasoundEditor: Not under compatible directories
 Excluding module MetasoundEngineTest: Not under compatible directories
+Found circular reference to MovieSceneTools.Build.cs, but Engine declares a cycle on Landscape which breaks the chain
 Excluding module MetasoundEngine: Not under compatible directories
 Excluding module MetasoundFrontend: Not under compatible directories
+Found circular reference to Engine.Build.cs, but Engine declares a cycle on Landscape which breaks the chain
 Excluding module MetasoundGenerator: Not under compatible directories
 Excluding module MetasoundGraphCore: Not under compatible directories
-Found circular reference to Engine.Build.cs, but Engine declares a cycle on Landscape which breaks the chain
 Excluding module MetasoundStandardNodes: Not under compatible directories
+Found circular reference to MovieSceneTools.Build.cs, but Engine declares a cycle on Landscape which breaks the chain
 Excluding module MIDIDevice: Not under compatible directories
 Excluding module MobilePatchingUtils: Not under compatible directories
-Found circular reference to UnrealEd.Build.cs, but Engine declares a cycle on Landscape which breaks the chain
+Found circular reference to PropertyEditor.Build.cs, but Engine declares a cycle on Landscape which breaks the chain
 Excluding module MsQuicRuntime: Not under compatible directories
 Excluding module NavCorridor: Not under compatible directories
 Excluding module SharedMemoryMediaEditor: Not under compatible directories
-Found circular reference to Engine.Build.cs, but Engine declares a cycle on Landscape which breaks the chain
+Found circular reference to UnrealEd.Build.cs, but Engine declares a cycle on Landscape which breaks the chain
 Excluding module SharedMemoryMedia: Not under compatible directories
 Excluding module NetworkPredictionExtrasLatentLoad: Not under compatible directories
-Found circular reference to Engine.Build.cs, but Engine declares a cycle on Landscape which breaks the chain
 Excluding module NetworkPredictionExtras: Not under compatible directories
-Found circular reference to UnrealEd.Build.cs, but Engine declares a cycle on Landscape which breaks the chain
 Excluding module NetworkPredictionInsights: Not under compatible directories
 Excluding module NetworkPrediction: Not under compatible directories
+Found circular reference to GraphEditor.Build.cs, but Engine declares a cycle on Landscape which breaks the chain
+Found circular reference to PropertyEditor.Build.cs, but Engine declares a cycle on Landscape which breaks the chain
 Excluding module Reflex: Not under compatible directories
-Found circular reference to UnrealEd.Build.cs, but Engine declares a cycle on Landscape which breaks the chain
 Excluding module OpenXREyeTracker: Not under compatible directories
 Found circular reference to Engine.Build.cs, but Engine declares a cycle on Landscape which breaks the chain
 Excluding module OpenXRHandTracking: Not under compatible directories
-Found circular reference to AIModule.Build.cs, but Engine declares a cycle on Landscape which breaks the chain
 Excluding module OpenXRMsftHandInteraction: Not under compatible directories
+Found circular reference to UnrealEd.Build.cs, but Engine declares a cycle on Landscape which breaks the chain
 Excluding module OpenXRViveTracker: Not under compatible directories
-Found circular reference to Engine.Build.cs, but Engine declares a cycle on Landscape which breaks the chain
 Excluding module OpenXRHMD: Not under compatible directories
 Excluding module OpenXRInput: Not under compatible directories
 Excluding module OptionalMobileFeaturesBPLibrary: Not under compatible directories
-Found circular reference to Engine.Build.cs, but Engine declares a cycle on Landscape which breaks the chain
 Excluding module OSC: Not under compatible directories
-Found circular reference to Renderer.Build.cs, but Engine declares a cycle on Landscape which breaks the chain
 Excluding module ProceduralMeshComponentEditor: Not under compatible directories
 Excluding module ProceduralMeshComponent: Not under compatible directories
 Excluding module PropertyBindingUtilsTestSuite: Not under compatible directories
 Excluding module PropertyBindingUtils: Not under compatible directories
 Excluding module ReplicationSystemTestPlugin: Not under compatible directories
 Excluding module ResonanceAudioEditor: Not under compatible directories
-Found circular reference to UnrealEd.Build.cs, but Engine declares a cycle on Landscape which breaks the chain
 Excluding module SmartObjectsEditorModule: Not under compatible directories
-Found circular reference to Engine.Build.cs, but Engine declares a cycle on Landscape which breaks the chain
+Found circular reference to PropertyEditor.Build.cs, but Engine declares a cycle on Landscape which breaks the chain
 Excluding module SmartObjectsModule: Not under compatible directories
 Excluding module SmartObjectsTestSuite: Not under compatible directories
+Found circular reference to Engine.Build.cs, but Engine declares a cycle on Landscape which breaks the chain
 Excluding module SoundMod: Not under compatible directories
 Excluding module SoundscapeEditor: Not under compatible directories
-Found circular reference to UnrealEd.Build.cs, but Engine declares a cycle on Landscape which breaks the chain
+Found circular reference to Sequencer.Build.cs, but Engine declares a cycle on Landscape which breaks the chain
 Excluding module Soundscape: Not under compatible directories
 Excluding module SoundUtilitiesEditor: Not under compatible directories
 Excluding module SoundUtilities: Not under compatible directories
 Excluding module StateTreeEditorModule: Not under compatible directories
-Found circular reference to PropertyEditor.Build.cs, but Engine declares a cycle on Landscape which breaks the chain
 Excluding module StateTreeModule: Not under compatible directories
 Excluding module StateTreeTestSuite: Not under compatible directories
 Excluding module SteamAudio: Not under compatible directories
 Excluding module SunPosition: Not under compatible directories
-Found circular reference to PropertyEditor.Build.cs, but Engine declares a cycle on Landscape which breaks the chain
 Excluding module SynthesisEditor: Not under compatible directories
 Excluding module Synthesis: Not under compatible directories
 Excluding module WaveTable: Not under compatible directories
 Excluding module WebBrowserNativeProxy: Not under compatible directories
 Excluding module WebBrowserWidget: Not under compatible directories
-Found circular reference to Engine.Build.cs, but Engine declares a cycle on Landscape which breaks the chain
 Excluding module WindowsDeviceProfileSelector: Not under compatible directories
 Excluding module WindowsMoviePlayer: Not under compatible directories
-Found circular reference to UnrealEd.Build.cs, but Engine declares a cycle on Landscape which breaks the chain
+Found circular reference to Kismet.Build.cs, but Engine declares a cycle on Landscape which breaks the chain
 Excluding module WinDualShock: Not under compatible directories
+Found circular reference to GraphEditor.Build.cs, but Engine declares a cycle on Landscape which breaks the chain
 Excluding module XInputDevice: Not under compatible directories
 Excluding module WorldConditionsEditor: Not under compatible directories
 Excluding module WorldConditionsTestSuite: Not under compatible directories
-Found circular reference to PropertyEditor.Build.cs, but Engine declares a cycle on Landscape which breaks the chain
 Excluding module WorldConditions: Not under compatible directories
 Excluding module XRBaseEditor: Not under compatible directories
+Found circular reference to PropertyEditor.Build.cs, but Engine declares a cycle on Landscape which breaks the chain
 Excluding module XRBase: Not under compatible directories
-Found circular reference to Engine.Build.cs, but Engine declares a cycle on Landscape which breaks the chain
 Excluding module XRScribe: Not under compatible directories
+Found circular reference to Engine.Build.cs, but Engine declares a cycle on Landscape which breaks the chain
 Excluding module XRVisualization: Not under compatible directories
-Found circular reference to UnrealEd.Build.cs, but Engine declares a cycle on Landscape which breaks the chain
-Found circular reference to Persona.Build.cs, but Engine declares a cycle on Landscape which breaks the chain
 Excluding module ZoneGraphAnnotations: Not under compatible directories
 Excluding module ZoneGraphDebug: Not under compatible directories
+Found circular reference to PropertyEditor.Build.cs, but Engine declares a cycle on Landscape which breaks the chain
 Excluding module ZoneGraphEditor: Not under compatible directories
 Excluding module ZoneGraphTestSuite: Not under compatible directories
 Excluding module ZoneGraph: Not under compatible directories
 Excluding module ScriptEditorPlugin: Not under compatible directories
 Excluding module ScriptPlugin: Not under compatible directories
-Found circular reference to Kismet.Build.cs, but Engine declares a cycle on Landscape which breaks the chain
+Found circular reference to UnrealEd.Build.cs, but Engine declares a cycle on Landscape which breaks the chain
 Excluding module SlateInsights: Not under compatible directories
 Excluding module SlateScriptingCommands: Not under compatible directories
 Excluding module InterchangeTestEditor: Not under compatible directories
 Excluding module InterchangeTests: Not under compatible directories
 Excluding module CameraCalibrationCoreEditor: Not under compatible directories
+Found circular reference to GraphEditor.Build.cs, but Engine declares a cycle on Landscape which breaks the chain
 Excluding module CameraCalibrationCore: Not under compatible directories
 Excluding module CameraCalibrationEditor: Not under compatible directories
+Found circular reference to MainFrame.Build.cs, but Engine declares a cycle on Landscape which breaks the chain
+Found circular reference to Landscape.Build.cs, but Engine declares a cycle on Landscape which breaks the chain
 Excluding module LensComponentEditor: Not under compatible directories
-Found circular reference to Engine.Build.cs, but Engine declares a cycle on Landscape which breaks the chain
 Excluding module LensComponent: Not under compatible directories
 Excluding module RemoteControlMultiUser: Not under compatible directories
+Excluding module RivermaxMediaFactory: Not under compatible directories
+Found circular reference to Engine.Build.cs, but Engine declares a cycle on Landscape which breaks the chain
+Excluding module DecoupledOutputProvider: Not under compatible directories
+Excluding module PixelStreamingVCam: Not under compatible directories
+Excluding module OXRVisionOS: Not under compatible directories
+Excluding module DotNetPerforceLib: Not under compatible directories
+Found circular reference to UnrealEd.Build.cs, but Engine declares a cycle on Landscape which breaks the chain
+Found circular reference to PropertyEditor.Build.cs, but Engine declares a cycle on Landscape which breaks the chain
+Found circular reference to Kismet.Build.cs, but Engine declares a cycle on Landscape which breaks the chain
+Found circular reference to PropertyEditor.Build.cs, but Engine declares a cycle on Landscape which breaks the chain
+Found circular reference to Engine.Build.cs, but Engine declares a cycle on Landscape which breaks the chain
+Found circular reference to GraphEditor.Build.cs, but Engine declares a cycle on Landscape which breaks the chain
+Found circular reference to PropertyEditor.Build.cs, but Engine declares a cycle on Landscape which breaks the chain
+Found circular reference to Engine.Build.cs, but Engine declares a cycle on Landscape which breaks the chain
+Found circular reference to Engine.Build.cs, but Engine declares a cycle on Landscape which breaks the chain
+Found circular reference to PropertyEditor.Build.cs, but Engine declares a cycle on Landscape which breaks the chain
+Found circular reference to Engine.Build.cs, but Engine declares a cycle on Landscape which breaks the chain
+Found circular reference to UnrealEd.Build.cs, but Engine declares a cycle on Landscape which breaks the chain
+Found circular reference to Engine.Build.cs, but Engine declares a cycle on Landscape which breaks the chain
+Found circular reference to Engine.Build.cs, but Engine declares a cycle on Landscape which breaks the chain
+Found circular reference to UnrealEd.Build.cs, but Engine declares a cycle on Landscape which breaks the chain
+Found circular reference to UnrealEd.Build.cs, but Engine declares a cycle on Landscape which breaks the chain
+Found circular reference to Engine.Build.cs, but Engine declares a cycle on Landscape which breaks the chain
+Found circular reference to AIModule.Build.cs, but Engine declares a cycle on Landscape which breaks the chain
+Found circular reference to Engine.Build.cs, but Engine declares a cycle on Landscape which breaks the chain
+Found circular reference to Engine.Build.cs, but Engine declares a cycle on Landscape which breaks the chain
+Found circular reference to Renderer.Build.cs, but Engine declares a cycle on Landscape which breaks the chain
+Found circular reference to UnrealEd.Build.cs, but Engine declares a cycle on Landscape which breaks the chain
+Found circular reference to Engine.Build.cs, but Engine declares a cycle on Landscape which breaks the chain
+Found circular reference to UnrealEd.Build.cs, but Engine declares a cycle on Landscape which breaks the chain
+Found circular reference to PropertyEditor.Build.cs, but Engine declares a cycle on Landscape which breaks the chain
+Found circular reference to PropertyEditor.Build.cs, but Engine declares a cycle on Landscape which breaks the chain
+Found circular reference to Engine.Build.cs, but Engine declares a cycle on Landscape which breaks the chain
+Found circular reference to UnrealEd.Build.cs, but Engine declares a cycle on Landscape which breaks the chain
+Found circular reference to PropertyEditor.Build.cs, but Engine declares a cycle on Landscape which breaks the chain
+Found circular reference to Engine.Build.cs, but Engine declares a cycle on Landscape which breaks the chain
+Found circular reference to UnrealEd.Build.cs, but Engine declares a cycle on Landscape which breaks the chain
+Found circular reference to Persona.Build.cs, but Engine declares a cycle on Landscape which breaks the chain
+Found circular reference to Kismet.Build.cs, but Engine declares a cycle on Landscape which breaks the chain
+Found circular reference to Engine.Build.cs, but Engine declares a cycle on Landscape which breaks the chain
 Found circular reference to UnrealEd.Build.cs, but Engine declares a cycle on Landscape which breaks the chain
 Found circular reference to GraphEditor.Build.cs, but Engine declares a cycle on Landscape which breaks the chain
 Found circular reference to PropertyEditor.Build.cs, but Engine declares a cycle on Landscape which breaks the chain
-Excluding module RivermaxMediaFactory: Not under compatible directories
-Excluding module DecoupledOutputProvider: Not under compatible directories
 Found circular reference to Engine.Build.cs, but Engine declares a cycle on Landscape which breaks the chain
-Excluding module PixelStreamingVCam: Not under compatible directories
-Excluding module OXRVisionOS: Not under compatible directories
 Found circular reference to PropertyEditor.Build.cs, but Engine declares a cycle on Landscape which breaks the chain
 Found circular reference to UnrealEd.Build.cs, but Engine declares a cycle on Landscape which breaks the chain
-Excluding module DotNetPerforceLib: Not under compatible directories
 Found circular reference to Engine.Build.cs, but Engine declares a cycle on Landscape which breaks the chain
 Found circular reference to PropertyEditor.Build.cs, but Engine declares a cycle on Landscape which breaks the chain
 Found circular reference to UnrealEd.Build.cs, but Engine declares a cycle on Landscape which breaks the chain
@@ -3715,13 +3717,6 @@ Excluding module LowLevelTestsRunner: Not precompiled for target 'Editor'
 Excluding module OnlineSubsystemTencent: Not precompiled for target 'Editor'
 Excluding module VoiceChat: Not precompiled for target 'Editor'
 Excluding module ReplicationSystemTestPlugin: Not precompiled for target 'Editor'
-Found 5 shared PCH headers (listed in order of preference):
-	UnrealEd
-	Engine
-	Slate
-	CoreUObject
-	Core
-@progress 'Binding IntelliSense data...' 50%
 Found circular reference to Engine.Build.cs, but Engine declares a cycle on GameplayTags which breaks the chain
 Found circular reference to PacketHandler.Build.cs, but PacketHandler declares a cycle on ReliabilityHandlerComponent which breaks the chain
 Found circular reference to Engine.Build.cs, but Engine declares a cycle on Landscape which breaks the chain
@@ -4096,6 +4091,13 @@ Found 5 shared PCH headers (listed in order of preference):
 	Slate
 	CoreUObject
 	Core
+Found 5 shared PCH headers (listed in order of preference):
+	UnrealEd
+	Engine
+	Slate
+	CoreUObject
+	Core
+@progress 'Binding IntelliSense data...' 50%
 @progress 'Binding IntelliSense data...' 100%
 Writing project files...
 @progress 'Writing project files...' 0%
@@ -4113,10 +4115,10 @@ Skipped saving .vsconfig because contents haven't changed.
 Project generation complete (2 generated, 48 imported)
 
 Generating QueryTargets data for editor...
-Total execution time: 18.52 seconds
+Total execution time: 11.83 seconds
 WriteFileIfChanged() wrote 5 changed files of 1649 requested writes.
 Timeline:
 
 [ 0.000]
-[ 0.000](+18.522) <unknown>
-[18.522]
+[ 0.000](+11.828) <unknown>
+[11.828]
