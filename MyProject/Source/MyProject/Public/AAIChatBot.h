@@ -19,6 +19,9 @@ public:
 	AAIChatBot();
 	~AAIChatBot();
 
+	UPROPERTY(BlueprintReadWrite, EditAnywhere, Category = "AI Chatbot")
+	UNetworkManager* netManager;
+ 
 	UFUNCTION(BlueprintCallable, Category = "AI Chatbot")
 	FString SendRequestToAI(FString inputString);
 };

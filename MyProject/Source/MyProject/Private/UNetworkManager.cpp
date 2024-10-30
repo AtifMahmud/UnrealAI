@@ -16,16 +16,15 @@ UNetworkManager::~UNetworkManager()
 void UNetworkManager::SendRequest(FString& Prompt)
 {
     TSharedRef<IHttpRequest> Request = FHttpModule::Get().CreateRequest();
-    Request->SetURL("https://api.openai.com/v1/completions");
+    Request->SetURL("https://api-inference.huggingface.co/models/microsoft/Phi-3-mini-4k-instruct");
     Request->SetVerb("POST");
     Request->SetHeader("Content-Type", "application/json");
-    Request->SetHeader("Authorization", "Bearer YOUR_API_KEY");
+    Request->SetHeader("Authorization", "Bearer ");
+    Request->SetHeader("x-use-cache", "false");
 
     // Create JSON payload
     TSharedPtr<FJsonObject> JsonObject = MakeShareable(new FJsonObject);
-    JsonObject->SetStringField("model", "text-davinci-003");
-    JsonObject->SetStringField("prompt", Prompt);
-    JsonObject->SetNumberField("max_tokens", 50);
+    JsonObject->SetStringField("inputs", Prompt);
 
     FString RequestBody;
     TSharedRef<TJsonWriter<>> Writer = TJsonWriterFactory<>::Create(&RequestBody);
