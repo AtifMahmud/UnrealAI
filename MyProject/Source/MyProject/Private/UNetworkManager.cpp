@@ -16,15 +16,28 @@ UNetworkManager::~UNetworkManager()
 void UNetworkManager::SendRequest(FString& Prompt)
 {
     TSharedRef<IHttpRequest> Request = FHttpModule::Get().CreateRequest();
-    Request->SetURL("https://api-inference.huggingface.co/models/microsoft/Phi-3-mini-4k-instruct");
+    Request->SetURL("https://api.openai.com/v1/chat/completions");
     Request->SetVerb("POST");
     Request->SetHeader("Content-Type", "application/json");
-    Request->SetHeader("Authorization", "Bearer ");
-    Request->SetHeader("x-use-cache", "false");
+    Request->SetHeader("Authorization", "Bearer");
 
     // Create JSON payload
     TSharedPtr<FJsonObject> JsonObject = MakeShareable(new FJsonObject);
-    JsonObject->SetStringField("inputs", Prompt);
+    JsonObject->SetStringField("model", "gpt-3.5-turbo");
+
+    // Create the messages array
+    TArray<TSharedPtr<FJsonValue>> MessagesArray;
+
+    // Create the user message object
+    TSharedPtr<FJsonObject> UserMessage = MakeShareable(new FJsonObject());
+    UserMessage->SetStringField("role", "user");
+    UserMessage->SetStringField("content", Prompt);
+
+    // Add the user message to the messages array
+    MessagesArray.Add(MakeShareable(new FJsonValueObject(UserMessage)));
+
+    // Set the messages array in the main JSON object
+    JsonObject->SetArrayField("messages", MessagesArray);
 
     FString RequestBody;
     TSharedRef<TJsonWriter<>> Writer = TJsonWriterFactory<>::Create(&RequestBody);
@@ -43,6 +56,25 @@ void UNetworkManager::OnResponseReceived(FHttpRequestPtr Request, FHttpResponseP
     {
         FString ResponseContent = Response->GetContentAsString();
         OnResponseReceivedDelegate.Broadcast(ResponseContent);
+        FString ResponseString = Response->GetContentAsString();
+        TSharedPtr<FJsonObject> JsonObject;
+        TSharedRef<TJsonReader<>> Reader = TJsonReaderFactory<>::Create(ResponseString);
+        if (FJsonSerializer::Deserialize(Reader, JsonObject) && JsonObject.IsValid())
+        {
+            // Navigate to choices array -> [0] -> message -> content
+            TArray<TSharedPtr<FJsonValue>> ChoicesArray = JsonObject->GetArrayField("choices");
+            if (ChoicesArray.Num() > 0)
+            {
+                TSharedPtr<FJsonObject> MessageObject = ChoicesArray[0]->AsObject()->GetObjectField("message");
+                FString Content = MessageObject->GetStringField("content");
+
+                OnResponseReceivedDelegate.Broadcast(Content);
+            }
+            else
+            {
+                UE_LOG(LogTemp, Warning, TEXT("Choices array is empty."));
+            }
+        }
     }
     else
     {
