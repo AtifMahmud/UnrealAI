@@ -13,17 +13,17 @@ UNetworkManager::~UNetworkManager()
 
 }
 
-void UNetworkManager::SendRequest(FString& Prompt)
+void UNetworkManager::SendRequest(FString& Prompt, FString model, FString key)
 {
     TSharedRef<IHttpRequest> Request = FHttpModule::Get().CreateRequest();
     Request->SetURL("https://api.openai.com/v1/chat/completions");
     Request->SetVerb("POST");
     Request->SetHeader("Content-Type", "application/json");
-    Request->SetHeader("Authorization", "Bearer");
+    Request->SetHeader("Authorization", "Bearer " + key);
 
     // Create JSON payload
     TSharedPtr<FJsonObject> JsonObject = MakeShareable(new FJsonObject);
-    JsonObject->SetStringField("model", "gpt-3.5-turbo");
+    JsonObject->SetStringField("model", model);
 
     // Create the messages array
     TArray<TSharedPtr<FJsonValue>> MessagesArray;

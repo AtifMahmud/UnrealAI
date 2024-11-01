@@ -28,6 +28,6 @@ public:
 	UPROPERTY(BlueprintAssignable, Category = "Network")
 	FOnResponseReceivedDelegate OnResponseReceivedDelegate;
 
-	void SendRequest(FString& Prompt);
+	void SendRequest(FString& Prompt, FString model, FString key);
 	void OnResponseReceived(FHttpRequestPtr Request, FHttpResponsePtr Response, bool bWasSuccessful);
 };

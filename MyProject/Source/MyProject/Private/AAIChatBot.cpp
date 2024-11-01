@@ -14,9 +14,9 @@ AAIChatBot::~AAIChatBot()
 }
 
 
-FString AAIChatBot::SendRequestToAI(FString inputString)
+FString AAIChatBot::SendRequestToAI(FString inputString, FString model, FString key)
 {
 	netManager = NewObject<UNetworkManager>();
-	netManager->SendRequest(inputString);
+	netManager->SendRequest(inputString, model, key);
 	return inputString;
 }
