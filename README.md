@@ -2,7 +2,9 @@
 
 This is a sample test project to interface with an AI agent. 
 
-## Instructions (Please watch UnrealAI_Demo.mkv for a demo)
+## This project was made with Unreal Engine v5.4.4 and Visual Studio 2022 
+
+## Instructions (Please watch [this video](UnrealAI_Demo.mkv) for a demo)
 
 1. Clone this repository
 2. Open up the project in unreal engine
@@ -12,15 +14,15 @@ This is a sample test project to interface with an AI agent.
 
 ## Important Files
 
-1. EML-Tech Dev Assignment-Oct 28 2024.pdf - Assignment Description
-2. UnrealAI_Demo.mkv - Demo of project
-3. ThoughtProcess.txt - Some notes as a I approached this, akin to scribbling on a notepad as I figure things out
-4. MyProject/Content/Levels/DemoLevel.umap - The scene/level where everything happens
-5. MyProject/Content/UI/UMG_Chatbot.uasset - The widget the user will interact with
-6. MyProject/Source/MyProject/Public/AAIChatBot.h - Header file for the Chabot API
-7. MyProject/Source/MyProject/Public/UNetworkManager.h - Header file for the NetworkManager
-8. MyProject/Source/MyProject/Private/AAIChatBot.cpp - Code for the Chatbot API
-9. MyProject/Source/MyProject/Private/UNetworkManager.cpp - Code for the NetworkManager
+1. `EML-Tech Dev Assignment-Oct 28 2024.pdf` - Assignment Description
+2. `UnrealAI_Demo.mkv` - Demo of project
+3. `ThoughtProcess.txt` - Some notes as a I approached this, akin to scribbling on a notepad as I figure things out
+4. `MyProject/Content/Levels/DemoLevel.umap` - The scene/level where everything happens
+5. `MyProject/Content/UI/UMG_Chatbot.uasset` - The widget the user will interact with
+6. `MyProject/Source/MyProject/Public/AAIChatBot.h` - Header file for the Chabot API
+7. `MyProject/Source/MyProject/Public/UNetworkManager.h` - Header file for the NetworkManager
+8. `MyProject/Source/MyProject/Private/AAIChatBot.cpp` - Code for the Chatbot API
+9. `MyProject/Source/MyProject/Private/UNetworkManager.cpp` - Code for the NetworkManager
 
 ## Possible improvements
 1. Improved error handling: For network errors, server errors (essentially all non 200 responses)
@@ -30,4 +32,5 @@ This is a sample test project to interface with an AI agent.
 5. Aesthetic improvements
 6. Integrate this into a game so a in-game character can talk to the AI
 
-If you have any questions, please feel free to ask me!
+
+If you have any questions, please feel free to email me at atifmahmud95@gmail.com!
